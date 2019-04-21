@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.41.177.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Screen.ScreenDesign.Screen, ToolsIde, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="Arkaplan" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+    <AliasConfiguration>
+      <Object d1p1:type="Neo.ApplicationFramework.Controls.Screen.Alias.AliasConfiguration, ControlsIde, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="AliasConfiguration1" d1p1:Site.Name="AliasConfiguration1" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" />
+    </AliasConfiguration>
+  </Object>
+</NeoItem>

@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Inputlar.Text" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text4" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text6" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text7" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text8" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text9" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text10" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text11" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text12" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text13" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text14" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Inputlar.Text15" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Inputlar.MultiPicture4" TargetProperty="Value" Source="Tags.Alt_Havlu_Algilama_1" />
+        <Item Target="Inputlar.MultiPicture3" TargetProperty="Value" Source="Tags.Ust_Havlu_Algilama_3" />
+        <Item Target="Inputlar.MultiPicture2" TargetProperty="Value" Source="Tags.Ust_Havlu_Algilama_2" />
+        <Item Target="Inputlar.MultiPicture1" TargetProperty="Value" Source="Tags.Ust_Havlu_Algilama_1" />
+        <Item Target="Inputlar.MultiPicture" TargetProperty="Value" Source="Tags.Acil_Stop" />
+        <Item Target="Inputlar.MultiPicture5" TargetProperty="Value" Source="Tags.Vakum_Sensor" />
+        <Item Target="Inputlar.MultiPicture6" TargetProperty="Value" Source="Tags.Piston_Arka_Switch" />
+        <Item Target="Inputlar.MultiPicture7" TargetProperty="Value" Source="Tags.Piston_On_Switch" />
+        <Item Target="Inputlar.MultiPicture8" TargetProperty="Value" Source="Tags.Emniyet_Switch" />
+        <Item Target="Inputlar.MultiPicture9" TargetProperty="Value" Source="Tags.Alt_Havlu_Algilama_2" />
+        <Item Target="Inputlar.MultiPicture10" TargetProperty="Value" Source="Tags.Hiz_Kontrol_Hata" />
+        <Item Target="Inputlar.MultiPicture11" TargetProperty="Value" Source="Tags.Mekanik_Termostat" />
+        <Item Target="Inputlar.MultiPicture12" TargetProperty="Value" Source="Tags.Yanma_Sensoru" />
+        <Item Target="Inputlar.MultiPicture13" TargetProperty="Value" Source="Tags.Gaz_Sensoru" />
+        <Item Target="Inputlar.MultiPicture14" TargetProperty="Value" Source="Tags.Fan_Termik_Atik" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Inputlar</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>47</ObjectsCount>
+          <ScreenName>Inputlar</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Inputlar.Picture" Source="untitled-1" Width="282" Height="35" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture4" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture4" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture4" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture3" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture3" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture3" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture2" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture2" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture2" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture1" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture1" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture1" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture5" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture5" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture5" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture6" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture6" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture6" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture7" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture7" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture7" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture8" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture8" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture8" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture9" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture9" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture9" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture10" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture10" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture10" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture11" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture11" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture11" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture12" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture12" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture12" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture13" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture13" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture13" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture14" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture14" Source="led_red" Width="34" Height="34" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Inputlar.MultiPicture14" Source="led_green" Width="34" Height="34" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

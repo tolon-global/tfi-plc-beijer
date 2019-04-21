@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="AlarmServer.Default_Acil_Stop_Alarm" TargetProperty="Value" Source="Tags.Acil_Stop_Alarm" />
+        <Item Target="AlarmServer.Default_Fan_Termik_Alarm" TargetProperty="Value" Source="Tags.Fan_Termik_Alarm" />
+        <Item Target="AlarmServer.Default_Brulor_Alarm" TargetProperty="Value" Source="Tags.Brulor_Alarm" />
+        <Item Target="AlarmServer.Default_Mekanik_Termostat_Alarm" TargetProperty="Value" Source="Tags.Mekanik_Termostat_Alarm" />
+        <Item Target="AlarmServer.Default_Hiz_Kontrol_Alarm" TargetProperty="Value" Source="Tags.Hiz_Kontrol_Alarm" />
+        <Item Target="AlarmServer.Default_Emniyet_Switch" TargetProperty="Value" Source="Tags.Emniyet_Switch" />
+        <Item Target="AlarmServer.Default_PT100_1_Alarm" TargetProperty="Value" Source="Tags.PT100_1_Alarm_1" />
+        <Item Target="AlarmServer.Default_PT100_2_Alarm" TargetProperty="Value" Source="Tags.PT100_2_Alarm" />
+        <Item Target="AlarmServer.Default_PT100_3_Alarm" TargetProperty="Value" Source="Tags.PT100_3_Alarm" />
+        <Item Target="AlarmServer.Default_PT100_1_Alarm1" TargetProperty="Value" Source="Tags.PT100_1_Alarm" />
+        <Item Target="AlarmServer.Default_PT100_2_Alarm2" TargetProperty="Value" Source="Tags.PT100_1_Alarm_2" />
+        <Item Target="AlarmServer.Default_PT100_3_Alarm3" TargetProperty="Value" Source="Tags.PT100_1_Alarm_3" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item Target="AlarmServer.Default_Acil_Stop_Alarm" TargetProperty="Value" Source="Tags.Acil_Stop_Alarm" />
+        <Item Target="AlarmServer.Default_Fan_Termik_Alarm" TargetProperty="Value" Source="Tags.Fan_Termik_Alarm" />
+        <Item Target="AlarmServer.Default_Brulor_Alarm" TargetProperty="Value" Source="Tags.Brulor_Alarm" />
+        <Item Target="AlarmServer.Default_Mekanik_Termostat_Alarm" TargetProperty="Value" Source="Tags.Mekanik_Termostat_Alarm" />
+        <Item Target="AlarmServer.Default_Hiz_Kontrol_Alarm" TargetProperty="Value" Source="Tags.Hiz_Kontrol_Alarm" />
+        <Item Target="AlarmServer.Default_Emniyet_Switch" TargetProperty="Value" Source="Tags.Emniyet_Switch" />
+        <Item Target="AlarmServer.Default_PT100_1_Alarm" TargetProperty="Value" Source="Tags.PT100_1_Alarm_1" />
+        <Item Target="AlarmServer.Default_PT100_2_Alarm" TargetProperty="Value" Source="Tags.PT100_2_Alarm" />
+        <Item Target="AlarmServer.Default_PT100_3_Alarm" TargetProperty="Value" Source="Tags.PT100_3_Alarm" />
+        <Item Target="AlarmServer.Default_PT100_1_Alarm1" TargetProperty="Value" Source="Tags.PT100_1_Alarm" />
+        <Item Target="AlarmServer.Default_PT100_2_Alarm2" TargetProperty="Value" Source="Tags.PT100_1_Alarm_2" />
+        <Item Target="AlarmServer.Default_PT100_3_Alarm3" TargetProperty="Value" Source="Tags.PT100_1_Alarm_3" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

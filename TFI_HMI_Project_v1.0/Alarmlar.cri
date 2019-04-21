@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items>
+        <Item xsi:type="AlarmViewerItem" Target="Alarmlar.AlarmViewer" ServerID="" ServerPort="0" MaximumAlarmEvents="100" />
+      </Items>
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Alarmlar.AlarmViewer" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Alarmlar.Text" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Alarmlar.Button5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Alarmlar.Button6" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="Alarmlar.Button5" Source="-563953808_Normal.bmp" />
+        <Item Target="Alarmlar.Button5" Source="-563953808_Pressed.bmp" />
+        <Item Target="Alarmlar.Button5" Source="-563953808_Disabled.bmp" />
+        <Item Target="Alarmlar.Button6" Source="372183173_Normal.bmp" />
+        <Item Target="Alarmlar.Button6" Source="372183173_Pressed.bmp" />
+        <Item Target="Alarmlar.Button6" Source="372183173_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Alarmlar</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>20</ObjectsCount>
+          <ScreenName>Alarmlar</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Alarmlar.Picture" Source="untitled-1" Width="282" Height="35" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

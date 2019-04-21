@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.41.177.0'?>
+<nacs:ScreenWindow Topmost="False" Title="Sistem" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="SingleBorder" ScreenSize="800, 480" StyleName="Default" IsCacheable="True" Background="{x:Null}" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" xmlns:naı="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" x:Class="Neo.ApplicationFramework.Generated.Sistem">
+  <nacs:ScreenWindow.TemplateScreen>
+    <nacs1:TemplateScreen Name="Arkaplan" RenderMode="Background" />
+  </nacs:ScreenWindow.TemplateScreen>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nacs2:Picture SymbolName="untitled-1" Name="m_Picture" Width="282" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="260" Canvas.Top="65" />
+    <nac:Label Text="SİSTEM SAYFASI" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Trebuchet MS" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="328" Canvas.Top="66" />
+    <nac:Label Text="Motor Redüktör Oranı: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text1" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" Canvas.Left="7" Canvas.Top="134">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label Text="Tambur Çapı: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text2" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="9" Canvas.Left="9" Canvas.Top="207">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label Text="Motor Devri: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text3" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="10" Canvas.Left="10" Canvas.Top="282">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Decimal" NumberOfDecimals="2" MaxNumberOfCharacters="4" LimitNumberOfCharacters="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric6" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="11" KeyboardNavigation.TabNavigation="None" Canvas.Left="224" Canvas.Top="118">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Motor_Reduktor_Oranı].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <naı:ActionProperties.Actions>
+        <naı:ActionList />
+      </naı:ActionProperties.Actions>
+    </nac:AnalogNumericFX>
+    <nac:AnalogNumericFX AutoStretchFont="False" Suffix=": mm" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="12" KeyboardNavigation.TabNavigation="None" Canvas.Left="224" Canvas.Top="191">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Tambur_Capi].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <naı:ActionProperties.Actions>
+        <naı:ActionList />
+      </naı:ActionProperties.Actions>
+    </nac:AnalogNumericFX>
+    <nac:AnalogNumericFX AutoStretchFont="False" Suffix=": d/d" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric1" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="13" KeyboardNavigation.TabNavigation="None" Canvas.Left="224" Canvas.Top="263">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.Motor_Devri].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <naı:ActionProperties.Actions>
+        <naı:ActionList />
+      </naı:ActionProperties.Actions>
+    </nac:AnalogNumericFX>
+    <nac:Group Name="m_Group3" Width="329" Height="105" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="25" Canvas.Left="432" Canvas.Top="282">
+      <nac:Group Name="m_Group2" Width="108" Height="103" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="20" Canvas.Left="221" Canvas.Top="2">
+        <naı:ActionProperties.Actions>
+          <naı:ActionList>
+            <nata:Action Name="Set Date and Time">
+              <nata:Action.ActionMethodInfo>
+                <nata:ActionMethodInfo Name="ShowChangeDateTimeDialog" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.IDateTimeEditService&gt;()" EventName="PreviewMouseDown" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+              </nata:Action.ActionMethodInfo>
+            </nata:Action>
+          </naı:ActionList>
+        </naı:ActionProperties.Actions>
+        <nac:Label Text="Saat-Tarih" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text6" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="17" Canvas.Left="0" Canvas.Top="0">
+          <nac:Label.TextDecorations>
+            <TextDecorationCollection />
+          </nac:Label.TextDecorations>
+        </nac:Label>
+        <nacs2:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox4" Width="75" Height="75" RenderTransform="Identity" Panel.ZIndex="5" Canvas.Left="8" Canvas.Top="28">
+          <naı:ActionProperties.Actions>
+            <naı:ActionList>
+              <nata:Action Name="Set Date and Time">
+                <nata:Action.ActionMethodInfo>
+                  <nata:ActionMethodInfo Name="ShowChangeDateTimeDialog" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.IDateTimeEditService&gt;()" EventName="PreviewMouseDown" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                </nata:Action.ActionMethodInfo>
+              </nata:Action>
+            </naı:ActionList>
+          </naı:ActionProperties.Actions>
+          <Viewbox Width="239" Height="239">
+            <Canvas Width="239" Height="239">
+              <Canvas>
+                <Canvas>
+                  <Path Data="F1M119.5,239C53.607,239 0,185.393 0,119.5 0,53.607 53.607,0 119.5,0 185.393,0 239,53.607 239,119.5 239,185.393 185.393,239 119.5,239z" Fill="#FF828282" />
+                  <Path Data="F1M235.285,119.5C235.285,183.446 183.446,235.285 119.5,235.285 55.554,235.285 3.715,183.446 3.715,119.5 3.715,55.554 55.554,3.715 119.5,3.715 183.446,3.715 235.285,55.554 235.285,119.5z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="128,-243.785" EndPoint="128,-12.215" MappingMode="Absolute" Transform="1,0,0,-1,-8.5,-8.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFE8E8E9" Offset="0" />
+                            <GradientStop Color="#FF979B9F" Offset="0.5" />
+                            <GradientStop Color="#FFEEEDE8" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M119.5,219.948C64.113,219.948 19.052,174.888 19.052,119.5 19.052,64.113 64.113,19.052 119.5,19.052 174.888,19.052 219.948,64.113 219.948,119.5 219.948,174.888 174.888,219.948 119.5,219.948z" Fill="#FFFAFAFA" />
+                  <Path Data="F1M119.5,217.948C65.215,217.948 21.052,173.785 21.052,119.5 21.052,65.215 65.215,21.052 119.5,21.052 173.785,21.052 217.948,65.215 217.948,119.5 217.948,173.785 173.785,217.948 119.5,217.948z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="128,-226.448" EndPoint="128,-29.552" MappingMode="Absolute" Transform="1,0,0,-1,-8.5,-8.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFFFFFFF" Offset="0" />
+                            <GradientStop Color="#FFACAEB1" Offset="0.42" />
+                            <GradientStop Color="#FF666A70" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M119.5,16.052C62.458,16.052 16.052,62.458 16.052,119.5 16.052,176.542 62.458,222.948 119.5,222.948 176.542,222.948 222.948,176.542 222.948,119.5 222.948,62.458 176.542,16.052 119.5,16.052z M119.5,230.285C58.413,230.285 8.715,180.587 8.715,119.5 8.715,58.413 58.413,8.715 119.5,8.715 180.587,8.715 230.285,58.413 230.285,119.5 230.285,180.587 180.587,230.285 119.5,230.285z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="128,-238.785" EndPoint="128,-17.215" MappingMode="Absolute" Transform="1,0,0,-1,-8.5,-8.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFAFB4B9" Offset="0" />
+                            <GradientStop Color="#FFDFE2E4" Offset="0.38" />
+                            <GradientStop Color="#FFFDFDFF" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M119.5,211.279C68.893,211.279 27.72,170.107 27.72,119.5 27.72,68.893 68.893,27.72 119.5,27.72 170.107,27.72 211.279,68.893 211.279,119.5 211.279,170.107 170.107,211.279 119.5,211.279z" Fill="#FF4C4C4C" />
+                  <Path Data="F1M119.5,207.279C71.098,207.279 31.72,167.901 31.72,119.5 31.72,71.098 71.098,31.72 119.5,31.72 167.901,31.72 207.279,71.098 207.279,119.5 207.279,167.901 167.901,207.279 119.5,207.279z">
+                    <Path.Fill>
+                      <RadialGradientBrush Center="128,-128" RadiusX="87.779" RadiusY="87.779" GradientOrigin="128,-128" MappingMode="Absolute" Transform="1,0,0,-1,-8.5,-8.5">
+                        <RadialGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFFFFFFF" Offset="0" />
+                            <GradientStop Color="#FFF6F8F3" Offset="0.34" />
+                            <GradientStop Color="#FFE1E5D9" Offset="0.93" />
+                            <GradientStop Color="#FFA3A4A6" Offset="1" />
+                          </GradientStopCollection>
+                        </RadialGradientBrush.GradientStops>
+                      </RadialGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M136.442,109.917C100.464,109.917 66.429,98.541 44.825,79.395 59.689,51.779 88.095,34.72 119.5,34.72 157.661,34.72 190.879,60.033 201.127,96.579 182.032,105.311 159.728,109.917 136.442,109.917z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="131.476,-118.417" EndPoint="131.476,-43.22" MappingMode="Absolute" Transform="1,0,0,-1,-8.5,-8.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFFFFFFF" Offset="0" />
+                            <GradientStop Color="#FFC7C8BC" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Canvas>
+                    <Canvas>
+                      <Path Data="F1M110.867,42.145L110.246,36.231 111.24,36.127 111.861,42.041 110.867,42.145z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M102.828,43.471L101.592,37.655 102.57,37.447 103.807,43.263 102.828,43.471z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M94.972,45.63L93.135,39.975 94.086,39.667 95.923,45.321 94.972,45.63z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M87.385,48.599L84.967,43.167 85.88,42.76 88.298,48.191 87.385,48.599z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M73.346,56.825L69.851,52.015 70.66,51.427 74.154,56.237 73.346,56.825z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M67.047,61.993L63.069,57.574 63.812,56.905 67.79,61.324 67.047,61.993z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M61.323,67.791L56.905,63.812 57.574,63.069 61.992,67.047 61.323,67.791z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M56.237,74.155L51.427,70.66 52.015,69.851 56.825,73.346 56.237,74.155z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M48.191,88.299L42.76,85.88 43.167,84.967 48.599,87.386 48.191,88.299z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M45.321,95.924L39.666,94.086 39.976,93.135 45.63,94.973 45.321,95.924z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M43.263,103.807L37.447,102.57 37.655,101.592 43.471,102.829 43.263,103.807z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M42.041,111.862L36.127,111.24 36.231,110.246 42.145,110.868 42.041,111.862z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M36.231,128.755L36.127,127.761 42.041,127.14 42.145,128.134 36.231,128.755z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M37.655,137.408L37.447,136.43 43.263,135.194 43.471,136.173 37.655,137.408z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M39.975,145.865L39.667,144.914 45.322,143.077 45.63,144.028 39.975,145.865z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M43.167,154.033L42.76,153.119 48.193,150.701 48.599,151.615 43.167,154.033z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M52.015,169.148L51.427,168.34 56.238,164.846 56.826,165.654 52.015,169.148z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M57.574,175.932L56.905,175.188 61.324,171.209 61.993,171.953 57.574,175.932z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M63.812,182.096L63.069,181.426 67.048,177.007 67.791,177.677 63.812,182.096z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M70.66,187.573L69.851,186.985 73.347,182.175 74.155,182.763 70.66,187.573z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M85.88,196.24L84.967,195.834 87.386,190.401 88.299,190.808 85.88,196.24z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M94.086,199.334L93.135,199.025 94.973,193.37 95.924,193.679 94.086,199.334z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M102.57,201.554L101.592,201.345 102.829,195.528 103.808,195.737 102.57,201.554z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M111.24,202.874L110.246,202.769 110.868,196.854 111.862,196.96 111.24,202.874z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M127.761,202.873L127.14,196.959 128.134,196.855 128.755,202.77 127.761,202.873z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M136.43,201.553L135.194,195.736 136.173,195.529 137.408,201.346 136.43,201.553z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M144.914,199.334L143.077,193.679 144.028,193.37 145.865,199.025 144.914,199.334z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M153.119,196.24L150.701,190.808 151.615,190.401 154.033,195.834 153.119,196.24z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M168.34,187.573L164.846,182.763 165.654,182.175 169.148,186.985 168.34,187.573z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M175.188,182.096L171.209,177.677 171.953,177.007 175.932,181.426 175.188,182.096z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M181.426,175.932L177.007,171.953 177.677,171.209 182.096,175.188 181.426,175.932z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M186.985,169.148L182.175,165.654 182.763,164.846 187.573,168.34 186.985,169.148z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M195.834,154.033L190.401,151.615 190.808,150.701 196.24,153.119 195.834,154.033z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M199.025,145.865L193.37,144.028 193.679,143.077 199.334,144.914 199.025,145.865z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M201.346,137.408L195.529,136.173 195.736,135.194 201.553,136.43 201.346,137.408z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M202.77,128.755L196.855,128.134 196.959,127.14 202.873,127.761 202.77,128.755z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M196.961,111.862L196.855,110.868 202.769,110.246 202.874,111.24 196.961,111.862z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M195.738,103.808L195.529,102.829 201.345,101.592 201.554,102.571 195.738,103.808z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M193.68,95.924L193.371,94.973 199.025,93.135 199.334,94.086 193.68,95.924z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M190.809,88.299L190.402,87.386 195.834,84.967 196.24,85.88 190.809,88.299z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M182.764,74.155L182.176,73.346 186.985,69.852 187.573,70.66 182.764,74.155z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M177.678,67.791L177.008,67.047 181.426,63.069 182.096,63.813 177.678,67.791z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M171.954,61.993L171.21,61.324 175.188,56.906 175.932,57.575 171.954,61.993z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M165.655,56.825L164.847,56.237 168.34,51.428 169.148,52.016 165.655,56.825z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M151.616,48.598L150.702,48.192 153.119,42.762 154.033,43.168 151.616,48.598z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M144.029,45.629L143.078,45.321 144.914,39.668 145.865,39.977 144.029,45.629z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M136.174,43.47L135.195,43.262 136.43,37.449 137.408,37.657 136.174,43.47z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M128.135,42.144L127.141,42.039 127.761,36.128 128.755,36.233 128.135,42.144z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M121.634,117.175L119.5,193.526 118.08,117.158 121.634,117.175z" Fill="#FFFF0000" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M126.084,119.5C126.084,123.137 123.137,126.084 119.5,126.084 115.864,126.084 112.917,123.137 112.917,119.5 112.917,115.864 115.864,112.917 119.5,112.917 123.137,112.917 126.084,115.864 126.084,119.5z" Fill="#FF000000" />
+                    </Canvas>
+                  </Canvas>
+                  <Canvas>
+                    <Canvas>
+                      <Path Data="F1M120.5,45.475L118.5,45.475 118.5,35.72 120.5,35.72 120.5,45.475z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M81.621,55.893L76.744,47.445 78.476,46.445 83.354,54.893 81.621,55.893z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M54.892,83.354L46.444,78.477 47.444,76.745 55.892,81.622 54.892,83.354z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M35.72,120.501L35.72,118.501 45.475,118.5 45.475,120.5 35.72,120.501z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M47.445,162.257L46.445,160.524 54.892,155.647 55.892,157.38 47.445,162.257z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M78.477,192.556L76.745,191.556 81.622,183.109 83.354,184.109 78.477,192.556z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M120.5,203.28L118.5,203.28 118.501,193.526 120.501,193.526 120.5,203.28z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M160.524,192.556L155.647,184.108 157.38,183.108 162.257,191.556 160.524,192.556z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M191.556,162.256L183.109,157.379 184.109,155.646 192.556,160.523 191.556,162.256z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M203.28,120.5L193.526,120.5 193.526,118.5 203.28,118.5 203.28,120.5z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M184.108,83.353L183.108,81.621 191.556,76.744 192.556,78.476 184.108,83.353z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M157.379,55.892L155.646,54.892 160.523,46.444 162.256,47.444 157.379,55.892z" Fill="#FF656565" />
+                    </Canvas>
+                  </Canvas>
+                  <Canvas>
+                    <Canvas>
+                      <Path Data="F1M110.973,63.455L112.309,63.455 112.309,53.693 112.118,53.412C111.833,53.454,110.858,53.893,109.191,54.729L109.191,54.184C110.846,53.433,112.412,52.318,113.891,50.839L116.017,50.839 116.017,63.455 117.354,63.455 117.354,63.873 110.973,63.873 110.973,63.455z" Fill="#FF656565" />
+                      <Path Data="F1M129.718,63.873L120.848,63.873C121.229,63.267 122.002,62.255 123.165,60.837 124.171,59.613 124.889,58.598 125.319,57.792 125.955,56.599 126.273,55.372 126.273,54.111 126.273,53.184 126.152,52.494 125.91,52.039 125.583,51.421 124.998,51.112 124.155,51.112 123.599,51.112 123.109,51.271 122.688,51.589 122.267,51.907 122.038,52.303 122.002,52.775 122.364,52.684 122.659,52.639 122.889,52.639 123.257,52.639 123.588,52.794 123.88,53.105 124.173,53.417 124.319,53.763 124.319,54.143 124.319,54.657 124.165,55.06 123.857,55.353 123.549,55.646 123.129,55.792 122.597,55.792 122.107,55.792 121.704,55.608 121.387,55.239 121.069,54.87 120.911,54.408 120.911,53.851 120.911,52.889 121.279,52.103 122.016,51.492 122.752,50.881 123.674,50.576 124.783,50.576 126.443,50.576 127.725,50.933 128.627,51.648 129.53,52.363 129.981,53.387 129.981,54.72 129.981,55.962 129.591,56.956 128.81,57.701 128.53,57.968 127.678,58.481 126.251,59.242 124.824,60.002 123.929,60.561 123.565,60.919L129.6,60.919 129.764,59.946 130.182,59.946 129.718,63.873z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M118.396,186.673C118.396,188.03 118.78,188.709 119.55,188.709 120.059,188.709 120.404,188.521 120.586,188.146 120.713,187.885 120.777,187.47 120.777,186.9L120.777,183.129C120.777,181.989 120.435,181.42 119.75,181.42 118.847,181.42 118.396,182.014 118.396,183.201L118.396,186.673z M123.567,177.512C123.567,177.954 123.425,178.322 123.14,178.615 122.855,178.91 122.488,179.057 122.04,179.057 121.671,179.057 121.344,178.92 121.059,178.646 120.773,178.373 120.632,178.055 120.632,177.689 120.632,177.094 120.877,176.617 121.368,176.258 121.144,176.082 120.831,175.994 120.432,175.994 119.565,175.994 118.978,176.452 118.668,177.369 118.486,177.908 118.396,178.729 118.396,179.826L118.396,181.592C119.05,180.969 119.789,180.656 120.613,180.656 121.704,180.656 122.622,181.053 123.367,181.848 124.112,182.641 124.485,183.607 124.485,184.746 124.485,185.928 124.007,186.953 123.049,187.822 122.092,188.692 120.986,189.127 119.731,189.127 118.114,189.127 116.869,188.558 115.996,187.418 115.124,186.279 114.688,184.689 114.688,182.646 114.688,180.89 115.175,179.311 116.151,177.912 117.235,176.354 118.626,175.576 120.322,175.576 121.11,175.576 121.801,175.706 122.395,175.967 123.177,176.313 123.567,176.827 123.567,177.512z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M186.413,119.974C186.413,119.144 186.165,118.577 185.668,118.274 185.316,118.062 184.741,117.956 183.941,117.956 184.051,117.956 183.896,117.956 183.478,117.956L183.014,117.956 183.014,117.565 184.133,117.565C184.848,117.578 185.354,117.445 185.65,117.169 185.946,116.893 186.096,116.427 186.096,115.772L186.096,113.842C186.096,113.168 185.98,112.692 185.75,112.413 185.52,112.133 185.141,111.994 184.613,111.994 184.172,111.994 183.795,112.088 183.482,112.276 183.17,112.464 182.986,112.713 182.933,113.023 183.417,113.029 183.81,113.163 184.109,113.424 184.409,113.685 184.559,114.043 184.559,114.499 184.559,114.937 184.42,115.293 184.141,115.569 183.862,115.846 183.505,115.984 183.068,115.984 182.639,115.984 182.271,115.81 181.969,115.461 181.666,115.113 181.515,114.696 181.515,114.211 181.515,113.406 181.896,112.751 182.66,112.248 183.338,111.8 184.099,111.576 184.941,111.576 186.189,111.576 187.219,111.794 188.031,112.23 189.067,112.788 189.585,113.633 189.585,114.766 189.585,115.62 189.243,116.314 188.559,116.847 187.982,117.296 187.237,117.589 186.322,117.729 187.553,117.941 188.512,118.352 189.199,118.96 189.887,119.569 190.23,120.325 190.23,121.229 190.23,122.555 189.637,123.566 188.449,124.264 187.468,124.84 186.262,125.127 184.832,125.127 183.856,125.127 183.005,124.928 182.277,124.527 181.387,124.037 180.941,123.343 180.941,122.445 180.941,121.991 181.084,121.592 181.369,121.246 181.672,120.877 182.045,120.691 182.486,120.691 182.953,120.691 183.338,120.828 183.641,121.101 183.944,121.373 184.096,121.734 184.096,122.182 184.096,123.17 183.505,123.691 182.323,123.746 182.851,124.388 183.62,124.709 184.632,124.709 185.184,124.709 185.618,124.497 185.937,124.072 186.254,123.648 186.413,123.085 186.413,122.383L186.413,119.974z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M79.404,73.455L80.74,73.455 80.74,63.693 80.549,63.412C80.265,63.454,79.289,63.893,77.623,64.729L77.623,64.184C79.277,63.433,80.843,62.318,82.322,60.839L84.448,60.839 84.448,73.455 85.785,73.455 85.785,73.873 79.404,73.873 79.404,73.455z" Fill="#FF656565" />
+                      <Path Data="F1M88.833,73.455L90.169,73.455 90.169,63.693 89.979,63.412C89.693,63.454,88.718,63.893,87.052,64.729L87.052,64.184C88.706,63.433,90.271,62.318,91.75,60.839L93.877,60.839 93.877,73.455 95.213,73.455 95.213,73.873 88.833,73.873 88.833,73.455z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M150.119,73.455L151.455,73.455 151.455,63.693 151.264,63.412C150.979,63.454,150.004,63.893,148.337,64.729L148.337,64.184C149.991,63.433,151.558,62.318,153.036,60.839L155.163,60.839 155.163,73.455 156.499,73.455 156.499,73.873 150.119,73.873 150.119,73.455z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M84.26,178.873C85.696,175.268,87.446,171.941,89.513,168.893L82.621,168.893 82.458,169.901 81.997,169.902 82.342,167.885C82.457,167.127,82.526,166.445,82.551,165.84L91.53,165.84C89.125,170.656,87.568,175.001,86.859,178.873L84.26,178.873z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M155.681,165.376L155.99,165.376C155.99,166.764 155.65,167.724 154.972,168.257 154.444,168.669 153.608,168.875 152.463,168.875 152.275,168.875 151.813,168.859 151.072,168.83 150.334,168.799 149.855,168.784 149.637,168.784L149.373,171.665C150.313,170.992 151.281,170.656 152.281,170.656 153.554,170.656 154.645,171.008 155.554,171.711 156.541,172.475 157.035,173.474 157.035,174.71 157.035,176.141 156.486,177.255 155.39,178.055 154.414,178.77 153.185,179.127 151.7,179.127 150.736,179.127 149.9,178.908 149.191,178.473 148.355,177.957 147.938,177.249 147.938,176.346 147.938,175.897 148.086,175.51 148.383,175.183 148.68,174.855 149.043,174.691 149.473,174.691 149.945,174.691 150.334,174.844 150.637,175.147 150.939,175.451 151.091,175.84 151.091,176.313 151.091,177.273 150.512,177.822 149.355,177.962 149.925,178.46 150.539,178.709 151.2,178.709 152.078,178.709 152.679,178.379 153,177.717 153.224,177.256 153.336,176.534 153.336,175.551 153.336,174.223 153.281,173.334 153.173,172.885 152.918,171.83 152.34,171.302 151.437,171.302 150.957,171.302 150.473,171.456 149.982,171.766 149.77,171.898 149.361,172.217 148.756,172.719 149.088,170.992 149.255,169.438 149.255,168.057 149.255,167.281 149.203,166.539 149.101,165.83 149.07,165.83 149.525,165.848 150.464,165.881 151.402,165.914 152.104,165.93 152.563,165.93 154.611,165.93 155.65,165.746 155.681,165.376z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M61.055,93.455L62.391,93.455 62.391,83.693 62.2,83.412C61.915,83.454,60.939,83.893,59.273,84.729L59.273,84.184C60.927,83.433,62.494,82.318,63.972,80.839L66.099,80.839 66.099,93.455 67.435,93.455 67.435,93.873 61.055,93.873 61.055,93.455z" Fill="#FF656565" />
+                      <Path Data="F1M72.4,91.899C72.4,93.105 72.815,93.709 73.646,93.709 74.476,93.709 74.891,93.105 74.891,91.899L74.891,82.804C74.891,81.597 74.476,80.994 73.646,80.994 72.815,80.994 72.4,81.597 72.4,82.804L72.4,91.899z M73.646,80.576C75.373,80.576 76.669,81.309 77.536,82.775 78.245,83.975 78.6,85.502 78.6,87.356 78.6,89.089 78.215,90.591 77.445,91.864 76.536,93.373 75.27,94.127 73.646,94.127 72.021,94.127 70.756,93.373 69.847,91.864 69.077,90.591 68.692,89.089 68.692,87.356 68.692,85.49 69.044,83.96 69.747,82.766 70.607,81.306 71.907,80.576 73.646,80.576z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M54.396,113.805L54.396,117.508C54.396,118.698 54.738,119.292 55.423,119.292 56.325,119.292 56.777,118.698 56.777,117.508L56.777,114.096C56.777,112.694 56.392,111.994 55.623,111.994 55.107,111.994 54.759,112.182 54.578,112.558 54.456,112.813 54.396,113.229 54.396,113.805z M51.605,123.2C51.605,122.764 51.751,122.396 52.042,122.096 52.333,121.796 52.693,121.646 53.123,121.646 53.493,121.646 53.821,121.782 54.109,122.055 54.397,122.328 54.541,122.646 54.541,123.01 54.541,123.585 54.296,124.063 53.805,124.445 54.005,124.621 54.317,124.709 54.741,124.709 55.607,124.709 56.195,124.248 56.504,123.328 56.687,122.782 56.777,121.965 56.777,120.873L56.777,119.128C56.159,119.741 55.419,120.046 54.559,120.046 53.451,120.046 52.528,119.656 51.792,118.874 51.056,118.092 50.688,117.123 50.688,115.966 50.688,114.796 51.167,113.772 52.128,112.894 53.088,112.015 54.192,111.576 55.441,111.576 57.059,111.576 58.304,112.143 59.177,113.275 60.049,114.408 60.485,116.002 60.485,118.056 60.485,119.819 59.997,121.397 59.021,122.791 57.932,124.349 56.541,125.127 54.85,125.127 54.068,125.127 53.381,124.996 52.787,124.736 51.999,124.391 51.605,123.879 51.605,123.2z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M178.571,93.873L169.701,93.873C170.082,93.267 170.855,92.255 172.019,90.837 173.024,89.613 173.742,88.598 174.173,87.792 174.809,86.599 175.127,85.372 175.127,84.111 175.127,83.184 175.006,82.494 174.764,82.039 174.436,81.421 173.852,81.112 173.01,81.112 172.451,81.112 171.963,81.271 171.541,81.589 171.12,81.907 170.892,82.303 170.855,82.775 171.217,82.684 171.514,82.639 171.742,82.639 172.111,82.639 172.441,82.794 172.734,83.105 173.026,83.417 173.173,83.763 173.173,84.143 173.173,84.657 173.019,85.06 172.711,85.353 172.402,85.646 171.982,85.792 171.451,85.792 170.961,85.792 170.558,85.608 170.24,85.239 169.924,84.87 169.765,84.408 169.765,83.851 169.765,82.889 170.133,82.103 170.869,81.492 171.605,80.881 172.527,80.576 173.637,80.576 175.297,80.576 176.578,80.933 177.48,81.648 178.384,82.363 178.835,83.387 178.835,84.72 178.835,85.962 178.444,86.956 177.663,87.701 177.384,87.968 176.531,88.481 175.104,89.242 173.678,90.002 172.782,90.561 172.418,90.919L178.453,90.919 178.617,89.946 179.035,89.946 178.571,93.873z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M66.604,144.994C65.841,144.994 65.459,145.697 65.459,147.105 65.459,147.197 65.462,147.361 65.468,147.598 65.474,147.834 65.478,147.974 65.478,148.016 65.478,149.885 65.853,150.82 66.604,150.82 67.355,150.82 67.731,149.863 67.731,147.952 67.731,147.91 67.734,147.773 67.74,147.543 67.746,147.313 67.75,147.151 67.75,147.061 67.75,145.683 67.368,144.994 66.604,144.994z M66.586,157.709C67.507,157.709 67.968,156.777 67.968,154.914 67.968,153.859 67.926,153.119 67.841,152.693 67.646,151.723 67.229,151.238 66.586,151.238 65.665,151.238 65.205,152.278 65.205,154.359L65.205,155.078C65.205,156.832,65.665,157.709,66.586,157.709z M65.687,151.02C64.753,150.82 63.975,150.475 63.351,149.983 62.593,149.384 62.215,148.656 62.215,147.803 62.215,146.809 62.711,146.002 63.705,145.385 64.572,144.846 65.532,144.576 66.586,144.576 67.671,144.576 68.641,144.836 69.495,145.357 70.494,145.969 70.994,146.784 70.994,147.803 70.994,149.39 69.85,150.45 67.559,150.983 68.625,151.184 69.519,151.553 70.24,152.092 71.118,152.752 71.558,153.567 71.558,154.537 71.558,155.719 71,156.64 69.886,157.3 68.952,157.852 67.853,158.127 66.586,158.127 65.241,158.127 64.126,157.869 63.242,157.354 62.157,156.725 61.615,155.785 61.615,154.537 61.615,153.471 62.048,152.641 62.915,152.047 63.526,151.629 64.451,151.286 65.687,151.02z" Fill="#FF656565" />
+                    </Canvas>
+                    <Canvas>
+                      <Path Data="F1M174.608,147.563L170.859,152.311 174.608,152.311 174.608,147.563z M173.437,157.455L174.608,157.455 174.608,154.119 169.51,154.119 169.51,153.129 176.129,144.84 177.663,144.84 177.663,152.311 179.398,152.311 179.398,154.119 177.663,154.119 177.663,157.455 178.726,157.455 178.726,157.873 173.437,157.873 173.437,157.455z" Fill="#FF656565" />
+                    </Canvas>
+                    <Path Data="F1M170.376,64.29C166.407,69.626,162.327,74.864,158.256,80.109L152.096,87.929 145.85,95.671C143.76,98.246 141.777,100.916 139.761,103.555 137.73,106.183 135.54,108.667 133.155,110.976 130.775,113.29 128.289,115.508 125.68,117.615 123.057,119.71 120.337,121.721 117.303,123.447L116.729,122.932C118.117,119.729 119.821,116.809 121.621,113.975 123.434,111.151 125.37,108.44 127.414,105.825 129.451,103.204 131.684,100.757 134.076,98.456 136.482,96.165 138.922,93.905 141.256,91.55L148.277,84.503 155.385,77.534C160.16,72.919,164.925,68.297,169.802,63.774L170.376,64.29z" Fill="#FF000000" />
+                    <Path Data="F1M65.718,111.32C70.301,111.434,74.868,111.67,79.436,111.896L86.28,112.295 93.111,112.79C95.387,112.961 97.679,113.017 99.966,113.109 102.251,113.212 104.511,113.503 106.743,114 108.975,114.493 111.191,115.103 113.389,115.851 115.584,116.613 117.766,117.48 119.899,118.696L119.813,119.331C117.432,119.932 115.098,120.185 112.779,120.332 110.461,120.466 108.162,120.461 105.879,120.34 103.596,120.222 101.341,119.897 99.111,119.386 96.883,118.864 94.66,118.304 92.42,117.861L85.706,116.511 79.004,115.066C74.542,114.063,70.079,113.07,65.632,111.954L65.718,111.32z" Fill="#FF000000" />
+                    <Path Data="F1M119.5,124.084C116.973,124.084 114.917,122.027 114.917,119.5 114.917,116.973 116.973,114.917 119.5,114.917 122.027,114.917 124.084,116.973 124.084,119.5 124.084,122.027 122.027,124.084 119.5,124.084z">
+                      <Path.Fill>
+                        <LinearGradientBrush StartPoint="128,-132.584" EndPoint="128,-123.417" MappingMode="Absolute" Transform="1,0,0,-1,-8.5,-8.5">
+                          <LinearGradientBrush.GradientStops>
+                            <GradientStopCollection>
+                              <GradientStop Color="#FF81868C" Offset="0" />
+                              <GradientStop Color="#FFDADCDD" Offset="1" />
+                            </GradientStopCollection>
+                          </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                      </Path.Fill>
+                    </Path>
+                  </Canvas>
+                </Canvas>
+              </Canvas>
+            </Canvas>
+          </Viewbox>
+        </nacs2:SymbolViewbox>
+      </nac:Group>
+      <nac:Group Name="m_Group1" Width="90" Height="103" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="19" Canvas.Left="118" Canvas.Top="2">
+        <naı:ActionProperties.Actions>
+          <naı:ActionList>
+            <nata:Action Name="Show Backlight Settings">
+              <nata:Action.ActionMethodInfo>
+                <nata:ActionMethodInfo Name="ShowBacklightSettings" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.IBacklightService&gt;()" EventName="PreviewMouseDown" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+              </nata:Action.ActionMethodInfo>
+            </nata:Action>
+          </naı:ActionList>
+        </naı:ActionProperties.Actions>
+        <nacs2:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox1" Width="75" Height="75" RenderTransform="Identity" Panel.ZIndex="2" Canvas.Left="4" Canvas.Top="28">
+          <naı:ActionProperties.Actions>
+            <naı:ActionList>
+              <nata:Action Name="Show Backlight Settings">
+                <nata:Action.ActionMethodInfo>
+                  <nata:ActionMethodInfo Name="ShowBacklightSettings" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.IBacklightService&gt;()" EventName="PreviewMouseDown" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                </nata:Action.ActionMethodInfo>
+              </nata:Action>
+            </naı:ActionList>
+          </naı:ActionProperties.Actions>
+          <Viewbox Width="246.667" Height="246.667">
+            <Canvas Width="246.667" Height="246.667">
+              <Canvas>
+                <Canvas>
+                  <Path Data="F1M123.333,186.576C89.013,186.576 61.091,158.654 61.091,124.333 61.091,90.013 89.013,62.091 123.333,62.091 157.654,62.091 185.576,90.013 185.576,124.333 185.576,158.654 157.654,186.576 123.333,186.576z" Fill="#FF896F00" />
+                  <Path Data="F1M123.333,246.667C116.9,246.667,111.667,241.433,111.667,235L111.667,11.667C111.667,5.233 116.9,0 123.333,0 129.766,0 135,5.233 135,11.667L135,235C135,241.433,129.766,246.667,123.333,246.667z" Fill="#FF896F00" />
+                  <Path Data="F1M133,235C133,240.339,128.671,244.667,123.333,244.667L123.333,244.667C117.995,244.667,113.667,240.339,113.667,235L113.667,11.667C113.667,6.328,117.995,2,123.333,2L123.333,2C128.671,2,133,6.328,133,11.667L133,235z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="118.333,-128" EndPoint="137.666,-128" MappingMode="Absolute" Transform="1,0,0,-1,-4.667,-4.667">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFF0BA0D" Offset="0" />
+                            <GradientStop Color="#FFF1E2A4" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M210.543,210.543C205.995,215.092,198.593,215.092,194.043,210.542L36.124,52.623C31.575,48.074 31.575,40.672 36.124,36.124 40.672,31.575 48.073,31.575 52.622,36.124L210.542,194.044C215.091,198.593,215.092,205.996,210.543,210.543z" Fill="#FF896F00" />
+                  <Path Data="F1M209.128,195.458C212.904,199.234,212.904,205.355,209.129,209.129L209.129,209.129C205.355,212.905,199.234,212.905,195.458,209.128L37.538,51.208C33.763,47.433,33.763,41.313,37.538,37.538L37.538,37.538C41.313,33.763,47.433,33.763,51.208,37.538L209.128,195.458z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="118.412,-128.079" EndPoint="137.745,-128.079" MappingMode="Absolute" Transform="0.707,-0.707,-0.707,-0.707,-57.796,123.333">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFF0BA0D" Offset="0" />
+                            <GradientStop Color="#FFF1E2A4" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M246.667,123.333C246.667,129.766,241.433,135,235,135L11.667,135C5.233,135 0,129.766 0,123.333 0,116.901 5.233,111.667 11.667,111.667L235,111.667C241.433,111.667,246.667,116.901,246.667,123.333z" Fill="#FF896F00" />
+                  <Path Data="F1M235,113.667C240.339,113.667,244.667,117.996,244.667,123.333L244.667,123.333C244.668,128.672,240.339,133,235,133L11.667,133C6.328,133,2,128.672,2,123.333L2,123.333C2,117.995,6.328,113.668,11.667,113.667L235,113.667z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="118.334,-128" EndPoint="137.666,-128" MappingMode="Absolute" Transform="0,-1,-1,0,-4.666,251.333">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFF0BA0D" Offset="0" />
+                            <GradientStop Color="#FFF1E2A4" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M210.543,36.123C215.092,40.672,215.092,48.074,210.543,52.624L52.623,210.543C48.074,215.092 40.672,215.092 36.124,210.543 31.575,205.995 31.575,198.594 36.124,194.044L194.044,36.125C198.593,31.575,205.996,31.575,210.543,36.123z" Fill="#FF896F00" />
+                  <Path Data="F1M195.458,37.539C199.234,33.763,205.355,33.763,209.129,37.538L209.129,37.538C212.906,41.312,212.905,47.434,209.128,51.208L51.208,209.128C47.433,212.904,41.313,212.905,37.538,209.128L37.538,209.128C33.763,205.354,33.763,199.235,37.538,195.459L195.458,37.539z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="118.411,-128.078" EndPoint="137.743,-128.078" MappingMode="Absolute" Transform="-0.707,-0.707,-0.707,0.707,123.334,304.462">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFF0BA0D" Offset="0" />
+                            <GradientStop Color="#FFF1E2A4" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M183.147,123.523C183.147,156.557 156.368,183.336 123.333,183.336 90.3,183.336 63.521,156.557 63.521,123.523 63.521,90.49 90.3,63.711 123.333,63.711 156.368,63.711 183.147,90.49 183.147,123.523z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="128,-188.003" EndPoint="128,-68.378" MappingMode="Absolute" Transform="1,0,0,-1,-4.667,-4.667">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFF0BA0D" Offset="0" />
+                            <GradientStop Color="#FFF1E2A4" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M123.333,63.711C90.3,63.711 63.521,90.49 63.521,123.523 63.521,156.557 90.3,183.336 123.333,183.336 156.368,183.336 183.147,156.557 183.147,123.523 183.147,90.49 156.368,63.711 123.333,63.711L123.333,63.711z M123.333,67.761C154.082,67.761 179.096,92.776 179.096,123.523 179.096,154.271 154.082,179.287 123.333,179.287 92.586,179.287 67.571,154.271 67.571,123.523 67.571,92.776 92.586,67.761 123.333,67.761">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="128,-188.003" EndPoint="128,-68.378" MappingMode="Absolute" Transform="1,0,0,-1,-4.667,-4.667">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFB79500" Offset="0" />
+                            <GradientStop Color="#FFDEBD3E" Offset="0.73" />
+                            <GradientStop Color="#FFF8F5E8" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                </Canvas>
+              </Canvas>
+            </Canvas>
+          </Viewbox>
+        </nacs2:SymbolViewbox>
+        <nac:Label Text="Parlaklık" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text5" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="16" Canvas.Left="0" Canvas.Top="0">
+          <nac:Label.TextDecorations>
+            <TextDecorationCollection />
+          </nac:Label.TextDecorations>
+        </nac:Label>
+      </nac:Group>
+      <nac:Group Name="m_Group" Width="108" Height="105" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="18" Canvas.Left="0" Canvas.Top="0">
+        <naı:ActionProperties.Actions>
+          <naı:ActionList>
+            <nata:Action Name="Show IP Settings">
+              <nata:Action.ActionMethodInfo>
+                <nata:ActionMethodInfo Name="ShowIpSettings" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.INetworkService&gt;()" EventName="PreviewMouseDown" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+              </nata:Action.ActionMethodInfo>
+            </nata:Action>
+          </naı:ActionList>
+        </naı:ActionProperties.Actions>
+        <nacs2:SymbolViewbox RequiresTransparency="True" ForceTransparency="False" Name="m_SymbolViewbox" Width="75" Height="75" RenderTransform="Identity" Panel.ZIndex="1" Canvas.Left="16" Canvas.Top="30">
+          <naı:ActionProperties.Actions>
+            <naı:ActionList>
+              <nata:Action Name="Show IP Settings">
+                <nata:Action.ActionMethodInfo>
+                  <nata:ActionMethodInfo Name="ShowIpSettings" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.INetworkService&gt;()" EventName="PreviewMouseDown" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                </nata:Action.ActionMethodInfo>
+              </nata:Action>
+            </naı:ActionList>
+          </naı:ActionProperties.Actions>
+          <Viewbox Width="229" Height="229">
+            <Canvas Width="229" Height="229">
+              <Canvas>
+                <Canvas>
+                  <Path Data="F1M114.5,229C51.364,229 0,177.636 0,114.5 0,51.364 51.364,0 114.5,0 177.636,0 229,51.364 229,114.5 229,177.636 177.636,229 114.5,229z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="128,-243.5" EndPoint="128,-14.5" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FF4C4C4C" Offset="0" />
+                            <GradientStop Color="#FFC4C4C4" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M225,113.5C225,174.527 175.527,224 114.5,224 53.473,224 4,174.527 4,113.5 4,52.473 53.473,3 114.5,3 175.527,3 225,52.473 225,113.5z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="110.712,-237.155" EndPoint="145.289,-18.845" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFB7B6B2" Offset="0" />
+                            <GradientStop Color="#FFBFBEBA" Offset="0.44" />
+                            <GradientStop Color="#FFD3D2CF" Offset="0.61" />
+                            <GradientStop Color="#FFECEBE9" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Canvas>
+                    <Path Data="F1M114.5,3C53.473,3 4,52.473 4,113.5 4,174.527 53.473,224 114.5,224 175.527,224 225,174.527 225,113.5 225,52.473 175.527,3 114.5,3L114.5,3z M114.5,8C172.673,8 220,55.327 220,113.5 220,171.673 172.673,219 114.5,219 56.327,219 9,171.673 9,113.5 9,55.327 56.327,8 114.5,8">
+                      <Path.Fill>
+                        <LinearGradientBrush StartPoint="128,-238.5" EndPoint="128,-17.5" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                          <LinearGradientBrush.GradientStops>
+                            <GradientStopCollection>
+                              <GradientStop Color="#FFB7B6B2" Offset="0" />
+                              <GradientStop Color="#FFBFBEBA" Offset="0.44" />
+                              <GradientStop Color="#FFD3D2CF" Offset="0.61" />
+                              <GradientStop Color="#FFE0DFDC" Offset="0.81" />
+                              <GradientStop Color="#FFFFFFFF" Offset="1" />
+                            </GradientStopCollection>
+                          </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                      </Path.Fill>
+                    </Path>
+                  </Canvas>
+                  <Path Data="F1M57.441,176.965C53.357,176.965,50.035,173.643,50.035,169.559L50.035,55.441C50.035,51.358,53.357,48.036,57.441,48.036L171.559,48.036C175.643,48.036,178.965,51.358,178.965,55.441L178.965,169.559C178.965,173.643,175.643,176.965,171.559,176.965L57.441,176.965z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="89.797,-201.978" EndPoint="166.203,-52.023" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFA3A2A0" Offset="0" />
+                            <GradientStop Color="#FFD6D5D3" Offset="0.56" />
+                            <GradientStop Color="#FFECEBE9" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M176.965,170.559C176.965,173.545,174.544,175.965,171.559,175.965L57.441,175.965C54.456,175.965,52.035,173.545,52.035,170.559L52.035,56.441C52.035,53.456,54.456,51.036,57.441,51.036L171.559,51.036C174.544,51.036,176.965,53.456,176.965,56.441L176.965,170.559z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="90.705,-201.197" EndPoint="165.296,-54.803" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FFECEBE9" Offset="0" />
+                            <GradientStop Color="#FFA7A6A4" Offset="0.74" />
+                            <GradientStop Color="#FFA3A2A0" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M65.585,69.125L65.585,124.912 82.554,124.912 82.554,138.443 95.883,138.443 95.883,152.38 133.117,152.38 133.117,138.443 146.445,138.443 146.445,124.912 163.415,124.912 163.415,69.125 65.585,69.125z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="128,-166.88" EndPoint="128,-83.625" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FF7A706E" Offset="0" />
+                            <GradientStop Color="#FF0B0A0A" Offset="0.58" />
+                            <GradientStop Color="#FF000000" Offset="1" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M158.834,109.752L70.167,109.752 70.167,73 158.834,73 158.834,109.752z" Fill="#FF000000" />
+                  <Path Data="F1M151.25,98.236C151.25,100.499,149.123,102.333,146.5,102.333L146.5,102.333C143.877,102.333,141.75,100.499,141.75,98.236L141.75,79.264C141.75,77.001,143.877,75.167,146.5,75.167L146.5,75.167C149.123,75.167,151.25,77.001,151.25,79.264L151.25,98.236z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="160,-116.833" EndPoint="160,-89.667" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FF421C1A" Offset="0.01" />
+                            <GradientStop Color="#FF6B4823" Offset="0.08" />
+                            <GradientStop Color="#FFAD9051" Offset="0.38" />
+                            <GradientStop Color="#FFE9DABA" Offset="0.56" />
+                            <GradientStop Color="#FFC4AD8A" Offset="0.69" />
+                            <GradientStop Color="#FF9F7F59" Offset="0.8" />
+                            <GradientStop Color="#FF946944" Offset="0.88" />
+                            <GradientStop Color="#FF88522F" Offset="0.96" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M135.25,98.236C135.25,100.499,133.123,102.333,130.5,102.333L130.5,102.333C127.877,102.333,125.75,100.499,125.75,98.236L125.75,79.264C125.75,77.001,127.877,75.167,130.5,75.167L130.5,75.167C133.123,75.167,135.25,77.001,135.25,79.264L135.25,98.236z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="144,-116.833" EndPoint="144,-89.667" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FF421C1A" Offset="0.01" />
+                            <GradientStop Color="#FF6B4823" Offset="0.08" />
+                            <GradientStop Color="#FFAD9051" Offset="0.38" />
+                            <GradientStop Color="#FFE9DABA" Offset="0.56" />
+                            <GradientStop Color="#FFC4AD8A" Offset="0.69" />
+                            <GradientStop Color="#FF9F7F59" Offset="0.8" />
+                            <GradientStop Color="#FF946944" Offset="0.88" />
+                            <GradientStop Color="#FF88522F" Offset="0.96" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M119.25,98.236C119.25,100.499,117.123,102.333,114.5,102.333L114.5,102.333C111.877,102.333,109.75,100.499,109.75,98.236L109.75,79.264C109.75,77.001,111.877,75.167,114.5,75.167L114.5,75.167C117.123,75.167,119.25,77.001,119.25,79.264L119.25,98.236z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="128,-116.833" EndPoint="128,-89.667" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FF421C1A" Offset="0.01" />
+                            <GradientStop Color="#FF6B4823" Offset="0.08" />
+                            <GradientStop Color="#FFAD9051" Offset="0.38" />
+                            <GradientStop Color="#FFE9DABA" Offset="0.56" />
+                            <GradientStop Color="#FFC4AD8A" Offset="0.69" />
+                            <GradientStop Color="#FF9F7F59" Offset="0.8" />
+                            <GradientStop Color="#FF946944" Offset="0.88" />
+                            <GradientStop Color="#FF88522F" Offset="0.96" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M103.25,98.236C103.25,100.499,101.123,102.333,98.5,102.333L98.5,102.333C95.877,102.333,93.75,100.499,93.75,98.236L93.75,79.264C93.75,77.001,95.877,75.167,98.5,75.167L98.5,75.167C101.123,75.167,103.25,77.001,103.25,79.264L103.25,98.236z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="112,-116.833" EndPoint="112,-89.667" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FF421C1A" Offset="0.01" />
+                            <GradientStop Color="#FF6B4823" Offset="0.08" />
+                            <GradientStop Color="#FFAD9051" Offset="0.38" />
+                            <GradientStop Color="#FFE9DABA" Offset="0.56" />
+                            <GradientStop Color="#FFC4AD8A" Offset="0.69" />
+                            <GradientStop Color="#FF9F7F59" Offset="0.8" />
+                            <GradientStop Color="#FF946944" Offset="0.88" />
+                            <GradientStop Color="#FF88522F" Offset="0.96" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                  <Path Data="F1M87.25,98.236C87.25,100.499,85.123,102.333,82.5,102.333L82.5,102.333C79.877,102.333,77.75,100.499,77.75,98.236L77.75,79.264C77.75,77.001,79.877,75.167,82.5,75.167L82.5,75.167C85.123,75.167,87.25,77.001,87.25,79.264L87.25,98.236z">
+                    <Path.Fill>
+                      <LinearGradientBrush StartPoint="96,-116.833" EndPoint="96,-89.667" MappingMode="Absolute" Transform="1,0,0,-1,-13.5,-14.5">
+                        <LinearGradientBrush.GradientStops>
+                          <GradientStopCollection>
+                            <GradientStop Color="#FF421C1A" Offset="0.01" />
+                            <GradientStop Color="#FF6B4823" Offset="0.08" />
+                            <GradientStop Color="#FFAD9051" Offset="0.38" />
+                            <GradientStop Color="#FFE9DABA" Offset="0.56" />
+                            <GradientStop Color="#FFC4AD8A" Offset="0.69" />
+                            <GradientStop Color="#FF9F7F59" Offset="0.8" />
+                            <GradientStop Color="#FF946944" Offset="0.88" />
+                            <GradientStop Color="#FF88522F" Offset="0.96" />
+                          </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                      </LinearGradientBrush>
+                    </Path.Fill>
+                  </Path>
+                </Canvas>
+              </Canvas>
+            </Canvas>
+          </Viewbox>
+        </nacs2:SymbolViewbox>
+        <nac:Label Text="IP Ayarları" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text4" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="14" Canvas.Left="0" Canvas.Top="0">
+          <nac:Label.TextDecorations>
+            <TextDecorationCollection />
+          </nac:Label.TextDecorations>
+        </nac:Label>
+      </nac:Group>
+    </nac:Group>
+    <nac:Group Name="m_Group4" Width="388" Height="142" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="26" Canvas.Left="407" Canvas.Top="118">
+      <nac:AnalogNumericFX AutoStretchFont="False" Suffix=": mm" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric2" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="23" KeyboardNavigation.TabNavigation="None" Canvas.Left="215" Canvas.Top="0">
+        <nac:AnalogNumericFX.Resources>
+          <ResourceDictionary>
+            <nacc:VariantValueConverter x:Key="ValueConverter" />
+          </ResourceDictionary>
+        </nac:AnalogNumericFX.Resources>
+        <nac:AnalogNumericFX.Value>
+          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.ILK_KATLAMA_UZUNLUGU].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+            <Binding.FallbackValue>0</Binding.FallbackValue>
+          </Binding>
+        </nac:AnalogNumericFX.Value>
+        <nac:AnalogNumericFX.BevelEffectInfo>
+          <nacb:BevelEffectInfo Style="None" Width="2" />
+        </nac:AnalogNumericFX.BevelEffectInfo>
+        <nac:AnalogNumericFX.TextDecorations>
+          <TextDecorationCollection />
+        </nac:AnalogNumericFX.TextDecorations>
+        <naı:ActionProperties.Actions>
+          <naı:ActionList />
+        </naı:ActionProperties.Actions>
+      </nac:AnalogNumericFX>
+      <nac:AnalogNumericFX AutoStretchFont="False" Suffix=": mm" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric3" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="24" KeyboardNavigation.TabNavigation="None" Canvas.Left="215" Canvas.Top="72">
+        <nac:AnalogNumericFX.Resources>
+          <ResourceDictionary>
+            <nacc:VariantValueConverter x:Key="ValueConverter" />
+          </ResourceDictionary>
+        </nac:AnalogNumericFX.Resources>
+        <nac:AnalogNumericFX.Value>
+          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SON_KATLAMA_UZUNLUGU].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+            <Binding.FallbackValue>0</Binding.FallbackValue>
+          </Binding>
+        </nac:AnalogNumericFX.Value>
+        <nac:AnalogNumericFX.BevelEffectInfo>
+          <nacb:BevelEffectInfo Style="None" Width="2" />
+        </nac:AnalogNumericFX.BevelEffectInfo>
+        <nac:AnalogNumericFX.TextDecorations>
+          <TextDecorationCollection />
+        </nac:AnalogNumericFX.TextDecorations>
+        <naı:ActionProperties.Actions>
+          <naı:ActionList />
+        </naı:ActionProperties.Actions>
+      </nac:AnalogNumericFX>
+      <nac:Label Text="Son Katlama Uzunluğu: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text8" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="1" Canvas.Top="91">
+        <nac:Label.TextDecorations>
+          <TextDecorationCollection />
+        </nac:Label.TextDecorations>
+      </nac:Label>
+      <nac:Label Text="İlk Katlama Uzunluğu: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text7" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="21" Canvas.Left="0" Canvas.Top="16">
+        <nac:Label.TextDecorations>
+          <TextDecorationCollection />
+        </nac:Label.TextDecorations>
+      </nac:Label>
+    </nac:Group>
+    <nac:Button ButtonAppearance="Rounded" Text="İzleme" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button" Width="100" Height="101" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="27" Canvas.Left="10" Canvas.Top="311" Style="{nac1:StyleMarkupExtension Black}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <naı:ActionProperties.Actions>
+        <naı:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="Izleme" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <naı:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </naı:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </naı:ActionList>
+      </naı:ActionProperties.Actions>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

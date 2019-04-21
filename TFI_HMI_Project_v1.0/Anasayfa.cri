@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Anasayfa.Button1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric6" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric7" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.Text1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.Button3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.Button" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric2" TargetProperty="FontFamily" Source="DS-DIGI.TTF" />
+        <Item Target="Anasayfa.Button2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric3" TargetProperty="FontFamily" Source="DS-DIGI.TTF" />
+        <Item Target="Anasayfa.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Anasayfa.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Anasayfa.Button1" TargetProperty="Background" Source="Tags.Auto_Start" />
+        <Item Target="Anasayfa.Button1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_Start" />
+        <Item Target="Anasayfa.Button1" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Manual_Otomatik" />
+        <Item Target="Anasayfa.AnalogNumeric6" TargetProperty="Value" Source="Tags.OLculen_Boy" />
+        <Item Target="Anasayfa.AnalogNumeric7" TargetProperty="Value" Source="Tags.Hiz_Rpm" />
+        <Item Target="Anasayfa.AnalogNumeric" TargetProperty="Value" Source="Tags.Katlama_Boyu" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button3" TargetProperty="Actions" Source="Tags.Manual_Otomatik" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button3" TargetProperty="Actions" Source="Tags.Auto_Start" Event="Click" Action="Reset Tag" Param="" />
+        <Item Target="Anasayfa.Button3" TargetProperty="TextValue" Source="Tags.Manual_Otomatik" />
+        <Item Target="Anasayfa.Button3" TargetProperty="Background" Source="Tags.Manual_Otomatik" />
+        <Item Target="Anasayfa.AnalogNumeric1" TargetProperty="Value" Source="Tags.Kavrama_Calisma_Suresi" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button" TargetProperty="Actions" Source="Tags.Auto_Start" Event="Click" Action="Reset Tag" Param="" />
+        <Item Target="Anasayfa.Button" TargetProperty="Background" Source="Tags.Auto_Start" />
+        <Item Target="Anasayfa.Button" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_Start" />
+        <Item Target="Anasayfa.Button" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Manual_Otomatik" />
+        <Item Target="Anasayfa.AnalogNumeric2" TargetProperty="Value" Source="Tags.PT100_1" />
+        <Item Target="Anasayfa.Picture1" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Yanma_Sensoru" />
+        <Item Target="Anasayfa.Picture2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Yanma_Sensoru" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button2" TargetProperty="Actions" Source="Tags.Gaz_Valfi" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Anasayfa.Button2" TargetProperty="TextValue" Source="Tags.Gaz_Valfi" />
+        <Item Target="Anasayfa.Button2" TargetProperty="Background" Source="Tags.Gaz_Valfi" />
+        <Item Target="Anasayfa.AnalogNumeric3" TargetProperty="Value" Source="Tags.PT100_1" />
+        <Item Target="Anasayfa.AnalogNumeric4" TargetProperty="Value" Source="Tags.BURNER_LEVEL" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button1" TargetProperty="Actions" Source="Popup_Start" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Anasayfa</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>33</ObjectsCount>
+          <ScreenName>Anasayfa</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button3" TargetProperty="Actions" Source="Tags.Manual_Otomatik" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button3" TargetProperty="Actions" Source="Tags.Auto_Start" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button" TargetProperty="Actions" Source="Tags.Auto_Start" Event="Click" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button2" TargetProperty="Actions" Source="Tags.Gaz_Valfi" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Anasayfa.Picture" Source="untitled-1" Width="282" Height="35" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Anasayfa.Picture3" Source="derece" Width="82" Height="82" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Anasayfa.Picture1" Source="flammable" Width="90" Height="90" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Anasayfa.Picture2" Source="action cancel1" Width="24" Height="24" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.41.177.0'?>
+<nacs:ScreenWindow Topmost="False" Title="Alarmlar" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="SingleBorder" ScreenSize="800, 480" StyleName="Default" IsCacheable="True" Background="{x:Null}" Foreground="#FF000000" FontSize="12" FontStyle="Normal" FontWeight="Normal" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:naı="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=InterfacesCF" xmlns:nacl="clr-namespace:Neo.ApplicationFramework.Controls.Logic;assembly=ControlsCF" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:naı1="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.Alarmlar">
+  <nacs:ScreenWindow.TemplateScreen>
+    <nacs1:TemplateScreen Name="Arkaplan" RenderMode="Background" />
+  </nacs:ScreenWindow.TemplateScreen>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nac:AlarmViewerFX GridBackground="#FFBBBBBB" CustomizeScrollbarColor="False" ButtonBackground="#FFE2E2E2" AcknowledgeSelectedButtonIsVisible="False" AcknowledgeAllButtonIsVisible="False" ClearButtonIsVisible="False" FilterButtonIsVisible="False" InfoButtonIsVisible="False" PauseButtonIsVisible="False" ColumnHeadersVisible="True" SummaryRowVisible="True" SortColumn="ActiveTime" SortDirection="Descending" ContextMenusEnabled="True" MaximumAlarmViewerRows="100" SelectedBorderColor="#FF000000" ServerAddress="" ServerPort="0" ScreenOwnerName="Alarmlar" Background="#FFE3E3E3" FontFamily="Tahoma" FontSize="16" Name="m_AlarmViewer" Width="616" Height="307" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="2" Canvas.Top="103" Style="{nac1:StyleMarkupExtension Standard}">
+      <nac:AlarmViewerFX.VisibleColumns>
+        <x:Array Type="naı:IColumnInfo">
+          <nacl:AlarmColumnInfo MappingName="DisplayState" HeaderName="State" ColumnWidth="80" />
+          <nacl:AlarmColumnInfo MappingName="ActiveTime" HeaderName="Active Time" ColumnWidth="150" />
+          <nacl:AlarmColumnInfo MappingName="DisplayText" HeaderName="Text" ColumnWidth="250" />
+        </x:Array>
+      </nac:AlarmViewerFX.VisibleColumns>
+      <nac:AlarmViewerFX.AlarmEventFilter>
+        <nacl:AlarmEventFilter MaximumAlarmRows="100">
+          <nacl:AlarmEventFilter.Groups>
+            <nacl:AlarmEventFilterGroup Name="Default" Enabled="True" ShowActiveAlarms="True" ShowNormalAlarms="True" ShowAcknowlegedAlarms="True" ShowInactiveAlarms="True" />
+          </nacl:AlarmEventFilter.Groups>
+        </nacl:AlarmEventFilter>
+      </nac:AlarmViewerFX.AlarmEventFilter>
+    </nac:AlarmViewerFX>
+    <nacs2:Picture SymbolName="untitled-1" Name="m_Picture" Width="282" Height="35" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="259" Canvas.Top="65" />
+    <nac:Label Text="ALARMLAR" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Trebuchet MS" FontSize="20" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="349" Canvas.Top="66" />
+    <nac:Button ButtonAppearance="RoundedTop" Text="Reset" MultiLine="True" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Foreground="#FFFFFFFF" FontFamily="Trebuchet MS" FontSize="20" FontStyle="Normal" FontWeight="Normal" Name="m_Button5" Width="154" Height="71" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="4" Canvas.Left="631" Canvas.Top="103" Style="{nac1:StyleMarkupExtension Eclipse}">
+      <nac:Button.Background>
+        <RadialGradientBrush>
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FF304968" Offset="0" />
+              <GradientStop Color="#FF000000" Offset="1" />
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+      </nac:Button.Background>
+      <naı1:ActionProperties.Actions>
+        <naı1:ActionList>
+          <nata:Action Name="Acknowledge All Alarms">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="AcknowledgeAll" ObjectName="AlarmViewer" EventName="Click" ReferenceType="Object" ObjectParentName="Alarmlar" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </naı1:ActionList>
+      </naı1:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button ButtonAppearance="RoundedBottom" Text="Clear" MultiLine="True" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolTransparent="False" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Foreground="#FFFFFFFF" FontFamily="Trebuchet MS" FontSize="20" FontStyle="Normal" FontWeight="Normal" Name="m_Button6" Width="154" Height="71" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="5" Canvas.Left="631" Canvas.Top="185" Style="{nac1:StyleMarkupExtension Eclipse}">
+      <nac:Button.Background>
+        <RadialGradientBrush>
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FF304968" Offset="0" />
+              <GradientStop Color="#FF000000" Offset="1" />
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+      </nac:Button.Background>
+      <naı1:ActionProperties.Actions>
+        <naı1:ActionList>
+          <nata:Action Name="Clear All Alarms">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ClearNormalAlarms" ObjectName="AlarmViewer" EventName="Click" ReferenceType="Object" ObjectParentName="Alarmlar" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </naı1:ActionList>
+      </naı1:ActionProperties.Actions>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

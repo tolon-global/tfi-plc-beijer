@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Tags.Hiz_Rpm" TargetProperty="Value" Source="Tags.Hiz_Rpm" />
+        <Item Target="Tags" TargetProperty="Hiz_Rpm" Source="Yaskawa.DataItem1" />
+        <Item Target="Tags" TargetProperty="Hiz_Rpm" Source="Fatek.DataItem4" />
+        <Item Target="Tags" TargetProperty="Hiz_Kontrol_Overload" Source="Yaskawa.DataItem2" />
+        <Item Target="Tags" TargetProperty="Manual_Otomatik" Source="Fatek.DataItem1" />
+        <Item Target="Tags" TargetProperty="Hiz_Kontrol_İleri" Source="Fatek.DataItem2" />
+        <Item Target="Tags" TargetProperty="Hiz_Kontrol_Geri" Source="Fatek.DataItem3" />
+        <Item Target="Tags" TargetProperty="Piston_İleri" Source="Fatek.DataItem5" />
+        <Item Target="Tags" TargetProperty="Piston_Geri" Source="Fatek.DataItem6" />
+        <Item Target="Tags" TargetProperty="Kavrama_Bobini" Source="Fatek.DataItem7" />
+        <Item Target="Tags" TargetProperty="Gaz_Valfi" Source="Fatek.DataItem8" />
+        <Item Target="Tags" TargetProperty="Fan_Manuel_Ac" Source="Fatek.DataItem9" />
+        <Item Target="Tags" TargetProperty="Acil_Stop" Source="Fatek.DataItem10" />
+        <Item Target="Tags" TargetProperty="Ust_Havlu_Algilama_1" Source="Fatek.DataItem11" />
+        <Item Target="Tags" TargetProperty="Ust_Havlu_Algilama_2" Source="Fatek.DataItem12" />
+        <Item Target="Tags" TargetProperty="Ust_Havlu_Algilama_3" Source="Fatek.DataItem13" />
+        <Item Target="Tags" TargetProperty="Alt_Havlu_Algilama_1" Source="Fatek.DataItem14" />
+        <Item Target="Tags" TargetProperty="Alt_Havlu_Algilama_2" Source="Fatek.DataItem15" />
+        <Item Target="Tags" TargetProperty="Emniyet_Switch" Source="Fatek.DataItem16" />
+        <Item Target="Tags" TargetProperty="Piston_On_Switch" Source="Fatek.DataItem17" />
+        <Item Target="Tags" TargetProperty="Piston_Arka_Switch" Source="Fatek.DataItem18" />
+        <Item Target="Tags" TargetProperty="Vakum_Sensor" Source="Fatek.DataItem19" />
+        <Item Target="Tags" TargetProperty="Fan_Termik_Atik" Source="Fatek.DataItem20" />
+        <Item Target="Tags" TargetProperty="Gaz_Sensoru" Source="Fatek.DataItem21" />
+        <Item Target="Tags" TargetProperty="Kavrama_Calisma_Suresi" Source="Fatek.DataItem22" />
+        <Item Target="Tags" TargetProperty="Mekanik_Termostat" Source="Fatek.DataItem23" />
+        <Item Target="Tags" TargetProperty="Hiz_Kontrol_Hata" Source="Fatek.DataItem24" />
+        <Item Target="Tags" TargetProperty="Acil_Stop_Alarm" Source="Fatek.DataItem38" />
+        <Item Target="Tags" TargetProperty="Fan_Termik_Alarm" Source="Fatek.DataItem39" />
+        <Item Target="Tags" TargetProperty="Brulor_Alarm" Source="Fatek.DataItem40" />
+        <Item Target="Tags" TargetProperty="Mekanik_Termostat_Alarm" Source="Fatek.DataItem41" />
+        <Item Target="Tags" TargetProperty="Hiz_Kontrol_Alarm" Source="Fatek.DataItem25" />
+        <Item Target="Tags" TargetProperty="Genel_Alarm" Source="Fatek.DataItem26" />
+        <Item Target="Tags" TargetProperty="PT100_1" Source="Fatek.DataItem27" />
+        <Item Target="Tags" TargetProperty="PT100_2" Source="Fatek.DataItem28" />
+        <Item Target="Tags" TargetProperty="PT100_3" Source="Fatek.DataItem29" />
+        <Item Target="Tags" TargetProperty="PID_Offset" Source="Fatek.DataItem30" />
+        <Item Target="Tags" TargetProperty="Istenilen_Sicaklik" Source="Fatek.DataItem31" />
+        <Item Target="Tags" TargetProperty="Ustlimit_Offset" Source="Fatek.DataItem32" />
+        <Item Target="Tags" TargetProperty="Auto_Start" Source="Fatek.DataItem33" />
+        <Item Target="Tags" TargetProperty="OLculen_Boy" Source="Fatek.DataItem34" />
+        <Item Target="Tags" TargetProperty="Motor_Reduktor_Oranı" Source="Fatek.DataItem35" />
+        <Item Target="Tags" TargetProperty="Tambur_Capi" Source="Fatek.DataItem36" />
+        <Item Target="Tags" TargetProperty="Motor_Devri" Source="Fatek.DataItem37" />
+        <Item Target="Tags" TargetProperty="PT100_1_Alarm" Source="Fatek.DataItem42" />
+        <Item Target="Tags" TargetProperty="PT100_2_Alarm" Source="Fatek.DataItem43" />
+        <Item Target="Tags" TargetProperty="PT100_3_Alarm" Source="Fatek.DataItem44" />
+        <Item Target="Tags" TargetProperty="Katlama_Boyu" Source="Fatek.DataItem45" />
+        <Item Target="Tags" TargetProperty="Yanma_Sensoru" Source="Fatek.DataItem49" />
+        <Item Target="Tags" TargetProperty="PT100_1_Alarm_1" Source="Fatek.DataItem46" />
+        <Item Target="Tags" TargetProperty="PT100_1_Alarm_2" Source="Fatek.DataItem47" />
+        <Item Target="Tags" TargetProperty="PT100_1_Alarm_3" Source="Fatek.DataItem48" />
+        <Item Target="Tags" TargetProperty="PLC_Cikis0" Source="Fatek.DataItem50" />
+        <Item Target="Tags" TargetProperty="PLC_Cikis1" Source="Fatek.DataItem51" />
+        <Item Target="Tags" TargetProperty="PLC_Cikis2_Brulor_Reset" Source="Fatek.DataItem52" />
+        <Item Target="Tags" TargetProperty="PLC_Cikis3" Source="Fatek.DataItem53" />
+        <Item Target="Tags" TargetProperty="PLC_Cikis4" Source="Fatek.DataItem54" />
+        <Item Target="Tags" TargetProperty="PLC_Cikis5" Source="Fatek.DataItem55" />
+        <Item Target="Tags" TargetProperty="PLC_Cikis6" Source="Fatek.DataItem56" />
+        <Item Target="Tags" TargetProperty="PLC_Cikis7" Source="Fatek.DataItem57" />
+        <Item Target="Tags" TargetProperty="SISTEM_RESET" Source="Fatek.DataItem58" />
+        <Item Target="Tags" TargetProperty="Gaz_Kontrol" Source="Fatek.DataItem59" />
+        <Item Target="Tags" TargetProperty="ILK_KATLAMA_UZUNLUGU" Source="Fatek.DataItem60" />
+        <Item Target="Tags" TargetProperty="SON_KATLAMA_UZUNLUGU" Source="Fatek.DataItem61" />
+        <Item Target="Tags" TargetProperty="BOY_HESAPLANDI" Source="Fatek.DataItem62" />
+        <Item Target="Tags" TargetProperty="KALAN_BOY" Source="Fatek.DataItem63" />
+        <Item Target="Tags" TargetProperty="ANLIK_BOY" Source="Fatek.DataItem64" />
+        <Item Target="Tags" TargetProperty="KATLANAN_BOY" Source="Fatek.DataItem65" />
+        <Item Target="Tags" TargetProperty="BURNER_LEVEL" Source="Fatek.DataItem66" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

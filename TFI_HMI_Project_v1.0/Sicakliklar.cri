@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Sicakliklar.AnalogNumeric" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sicakliklar.AnalogNumeric1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sicakliklar.AnalogNumeric2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sicakliklar.AnalogNumeric3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sicakliklar.AnalogNumeric4" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sicakliklar.AnalogNumeric5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sicakliklar.Text1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sicakliklar.LinearMeter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Sicakliklar.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Sicakliklar.AnalogNumeric" TargetProperty="Value" Source="Tags.PT100_1" />
+        <Item Target="Sicakliklar.AnalogNumeric1" TargetProperty="Value" Source="Tags.PT100_2" />
+        <Item Target="Sicakliklar.AnalogNumeric2" TargetProperty="Value" Source="Tags.PT100_3" />
+        <Item Target="Sicakliklar.AnalogNumeric3" TargetProperty="Value" Source="Tags.Istenilen_Sicaklik" />
+        <Item Target="Sicakliklar.AnalogNumeric4" TargetProperty="Value" Source="Tags.Ustlimit_Offset" />
+        <Item Target="Sicakliklar.AnalogNumeric5" TargetProperty="Value" Source="Tags.PID_Offset" />
+        <Item Target="Sicakliklar.LinearMeter" TargetProperty="Value" Source="Tags.BURNER_LEVEL" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="Sicakliklar.LinearMeter" Source="Sicakliklar.m_LinearMeter.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Sicakliklar</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>25</ObjectsCount>
+          <ScreenName>Sicakliklar</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Sicakliklar.Picture" Source="untitled-1" Width="282" Height="35" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

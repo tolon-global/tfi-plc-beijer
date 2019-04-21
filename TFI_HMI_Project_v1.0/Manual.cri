@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Manual.Text" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.AnalogNumeric7" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button4" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button6" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button7" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Manual.Button8" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Manual.AnalogNumeric7" TargetProperty="Value" Source="Tags.Hiz_Rpm" />
+        <Item Target="Manual.MultiPicture" TargetProperty="Value" Source="Tags.PLC_Cikis0" />
+        <Item Target="Manual.MultiPicture1" TargetProperty="Value" Source="Tags.PLC_Cikis1" />
+        <Item Target="Manual.MultiPicture2" TargetProperty="Value" Source="Tags.PLC_Cikis6" />
+        <Item Target="Manual.MultiPicture3" TargetProperty="Value" Source="Tags.PLC_Cikis7" />
+        <Item Target="Manual.MultiPicture4" TargetProperty="Value" Source="Tags.PLC_Cikis5" />
+        <Item Target="Manual.MultiPicture5" TargetProperty="Value" Source="Tags.PLC_Cikis3" />
+        <Item Target="Manual.MultiPicture6" TargetProperty="Value" Source="Tags.PLC_Cikis4" />
+        <Item xsi:type="ActionItem" Target="Manual.Button2" TargetProperty="Actions" Source="Tags.Hiz_Kontrol_İleri" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Manual.Button2" TargetProperty="Value" Source="Tags.Hiz_Kontrol_İleri" />
+        <Item Target="Manual.Button2" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Hiz_Kontrol_Geri" />
+        <Item xsi:type="ActionItem" Target="Manual.Button3" TargetProperty="Actions" Source="Tags.Hiz_Kontrol_Geri" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Manual.Button3" TargetProperty="Value" Source="Tags.Hiz_Kontrol_Geri" />
+        <Item Target="Manual.Button3" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Hiz_Kontrol_İleri" />
+        <Item xsi:type="ActionItem" Target="Manual.Button1" TargetProperty="Actions" Source="Tags.Piston_İleri" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button1" TargetProperty="Actions" Source="Tags.Piston_İleri" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button4" TargetProperty="Actions" Source="Tags.Piston_Geri" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button4" TargetProperty="Actions" Source="Tags.Piston_Geri" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button5" TargetProperty="Actions" Source="Tags.Kavrama_Bobini" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button5" TargetProperty="Actions" Source="Tags.Kavrama_Bobini" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button6" TargetProperty="Actions" Source="Tags.Gaz_Valfi" Event="PreviewMouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button7" TargetProperty="Actions" Source="Tags.Fan_Manuel_Ac" Event="PreviewMouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button" TargetProperty="Actions" Source="Tags.PLC_Cikis2_Brulor_Reset" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button" TargetProperty="Actions" Source="Tags.PLC_Cikis2_Brulor_Reset" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button8" TargetProperty="Actions" Source="Tags.SISTEM_RESET" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button8" TargetProperty="Actions" Source="Tags.SISTEM_RESET" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item Target="Manual.MultiPicture7" TargetProperty="Value" Source="Tags.PLC_Cikis2_Brulor_Reset" />
+        <Item Target="Manual.MultiPicture8" TargetProperty="Value" Source="Tags.SISTEM_RESET" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="Manual.Button2" Source="-563953808_Normal.bmp" />
+        <Item Target="Manual.Button2" Source="-563953808_Pressed.bmp" />
+        <Item Target="Manual.Button2" Source="-563953808_Disabled.bmp" />
+        <Item Target="Manual.Button3" Source="372183173_Normal.bmp" />
+        <Item Target="Manual.Button3" Source="372183173_Pressed.bmp" />
+        <Item Target="Manual.Button3" Source="372183173_Disabled.bmp" />
+        <Item Target="Manual.Button1" Source="-563953808_Normal.bmp" />
+        <Item Target="Manual.Button1" Source="-563953808_Pressed.bmp" />
+        <Item Target="Manual.Button1" Source="-563953808_Disabled.bmp" />
+        <Item Target="Manual.Button4" Source="372183173_Normal.bmp" />
+        <Item Target="Manual.Button4" Source="372183173_Pressed.bmp" />
+        <Item Target="Manual.Button4" Source="372183173_Disabled.bmp" />
+        <Item Target="Manual.Button5" Source="-563953808_Normal.bmp" />
+        <Item Target="Manual.Button5" Source="-563953808_Pressed.bmp" />
+        <Item Target="Manual.Button5" Source="-563953808_Disabled.bmp" />
+        <Item Target="Manual.Button6" Source="372183173_Normal.bmp" />
+        <Item Target="Manual.Button6" Source="372183173_Pressed.bmp" />
+        <Item Target="Manual.Button6" Source="372183173_Disabled.bmp" />
+        <Item Target="Manual.Button7" Source="372183173_Normal.bmp" />
+        <Item Target="Manual.Button7" Source="372183173_Pressed.bmp" />
+        <Item Target="Manual.Button7" Source="372183173_Disabled.bmp" />
+        <Item Target="Manual.Button" Source="372183173_Normal.bmp" />
+        <Item Target="Manual.Button" Source="372183173_Pressed.bmp" />
+        <Item Target="Manual.Button" Source="372183173_Disabled.bmp" />
+        <Item Target="Manual.Button8" Source="372183173_Normal.bmp" />
+        <Item Target="Manual.Button8" Source="372183173_Pressed.bmp" />
+        <Item Target="Manual.Button8" Source="372183173_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Manual</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>36</ObjectsCount>
+          <ScreenName>Manual</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Manual.Button2" TargetProperty="Actions" Source="Tags.Hiz_Kontrol_İleri" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button3" TargetProperty="Actions" Source="Tags.Hiz_Kontrol_Geri" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button1" TargetProperty="Actions" Source="Tags.Piston_İleri" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button1" TargetProperty="Actions" Source="Tags.Piston_İleri" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button4" TargetProperty="Actions" Source="Tags.Piston_Geri" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button4" TargetProperty="Actions" Source="Tags.Piston_Geri" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button5" TargetProperty="Actions" Source="Tags.Kavrama_Bobini" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button5" TargetProperty="Actions" Source="Tags.Kavrama_Bobini" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button6" TargetProperty="Actions" Source="Tags.Gaz_Valfi" Event="PreviewMouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button7" TargetProperty="Actions" Source="Tags.Fan_Manuel_Ac" Event="PreviewMouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button" TargetProperty="Actions" Source="Tags.PLC_Cikis2_Brulor_Reset" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button" TargetProperty="Actions" Source="Tags.PLC_Cikis2_Brulor_Reset" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button8" TargetProperty="Actions" Source="Tags.SISTEM_RESET" Event="PreviewMouseDown" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Manual.Button8" TargetProperty="Actions" Source="Tags.SISTEM_RESET" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Manual.Picture" Source="untitled-1" Width="282" Height="35" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture1" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture1" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture1" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture2" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture2" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture2" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture3" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture3" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture3" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture4" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture4" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture4" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture5" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture5" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture5" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture6" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture6" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture6" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture7" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture7" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture7" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture8" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture8" Source="led_red" Width="65" Height="65" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Manual.MultiPicture8" Source="led_green" Width="65" Height="65" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>
