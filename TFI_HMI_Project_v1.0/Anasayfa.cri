@@ -26,18 +26,20 @@
       <Items>
         <Item Target="Anasayfa.Button1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Anasayfa.AnalogNumeric6" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Anasayfa.AnalogNumeric7" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Anasayfa.Text1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Anasayfa.AnalogNumeric" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Anasayfa.Button3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Anasayfa.AnalogNumeric1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Anasayfa.Button" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Anasayfa.AnalogNumeric2" TargetProperty="FontFamily" Source="DS-DIGI.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
         <Item Target="Anasayfa.Button2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Anasayfa.AnalogNumeric3" TargetProperty="FontFamily" Source="DS-DIGI.TTF" />
-        <Item Target="Anasayfa.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Anasayfa.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Anasayfa.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Anasayfa.Text" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
+        <Item Target="Anasayfa.Text2" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric4" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.AnalogNumeric5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Anasayfa.EmniyetSwitchGroup.Text3" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
+        <Item Target="Anasayfa.Button4" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -46,7 +48,6 @@
         <Item Target="Anasayfa.Button1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Auto_Start" />
         <Item Target="Anasayfa.Button1" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Manual_Otomatik" />
         <Item Target="Anasayfa.AnalogNumeric6" TargetProperty="Value" Source="Tags.OLculen_Boy" />
-        <Item Target="Anasayfa.AnalogNumeric7" TargetProperty="Value" Source="Tags.Hiz_Rpm" />
         <Item Target="Anasayfa.AnalogNumeric" TargetProperty="Value" Source="Tags.Katlama_Boyu" />
         <Item xsi:type="ActionItem" Target="Anasayfa.Button3" TargetProperty="Actions" Source="Tags.Manual_Otomatik" Event="Click" Action="Toggle Tag" Param="" />
         <Item xsi:type="ActionItem" Target="Anasayfa.Button3" TargetProperty="Actions" Source="Tags.Auto_Start" Event="Click" Action="Reset Tag" Param="" />
@@ -63,8 +64,11 @@
         <Item xsi:type="ActionItem" Target="Anasayfa.Button2" TargetProperty="Actions" Source="Tags.Gaz_Valfi" Event="Click" Action="Toggle Tag" Param="" />
         <Item Target="Anasayfa.Button2" TargetProperty="TextValue" Source="Tags.Gaz_Valfi" />
         <Item Target="Anasayfa.Button2" TargetProperty="Background" Source="Tags.Gaz_Valfi" />
-        <Item Target="Anasayfa.AnalogNumeric3" TargetProperty="Value" Source="Tags.PT100_1" />
         <Item Target="Anasayfa.AnalogNumeric4" TargetProperty="Value" Source="Tags.BURNER_LEVEL" />
+        <Item Target="Anasayfa.AnalogNumeric3" TargetProperty="Value" Source="Tags.Devir_Bolu_Metre" />
+        <Item Target="Anasayfa.AnalogNumeric5" TargetProperty="Value" Source="Tags.KATLAMA_SAYISI" />
+        <Item Target="Anasayfa.EmniyetSwitchGroup" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.Emniyet_Switch" />
+        <Item Target="Anasayfa.EmniyetSwitchGroup.Text3" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Emniyet_Switch" />
       </Items>
     </Category>
     <Category Name="IntegratorSwapActiveProjectAction">
@@ -80,7 +84,11 @@
       <Items />
     </Category>
     <Category Name="Renderable">
-      <Items />
+      <Items>
+        <Item Target="Anasayfa.Button4" Source="-1817259794_Normal.bmp" />
+        <Item Target="Anasayfa.Button4" Source="-1817259794_Pressed.bmp" />
+        <Item Target="Anasayfa.Button4" Source="-1817259794_Disabled.bmp" />
+      </Items>
     </Category>
     <Category Name="Report">
       <Items />
@@ -88,11 +96,13 @@
     <Category Name="Screen">
       <Items>
         <Item xsi:type="ActionItem" Target="Anasayfa.Button1" TargetProperty="Actions" Source="Popup_Start" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.AnalogNumeric5" TargetProperty="Actions" Source="KATLAMA_POPUP" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Anasayfa.Button4" TargetProperty="Actions" Source="KATLAMA_POPUP" Event="Click" Action="Show Screen" Param="Default" />
         <Item xsi:type="ScreenIDItem" ScreenID="">
           <ScreenName>Anasayfa</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>33</ObjectsCount>
+          <ObjectsCount>36</ObjectsCount>
           <ScreenName>Anasayfa</ScreenName>
         </Item>
       </Items>
@@ -110,7 +120,7 @@
     </Category>
     <Category Name="Symbol">
       <Items>
-        <Item xsi:type="SymbolItem" Target="Anasayfa.Picture" Source="untitled-1" Width="282" Height="35" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Anasayfa.Picture" Source="untitled-1" Width="281" Height="35" IsAnimated="false" />
         <Item xsi:type="SymbolItem" Target="Anasayfa.Picture3" Source="derece" Width="82" Height="82" IsAnimated="false" />
         <Item xsi:type="SymbolItem" Target="Anasayfa.Picture1" Source="flammable" Width="90" Height="90" IsAnimated="false" />
         <Item xsi:type="SymbolItem" Target="Anasayfa.Picture2" Source="action cancel1" Width="24" Height="24" IsAnimated="false" />

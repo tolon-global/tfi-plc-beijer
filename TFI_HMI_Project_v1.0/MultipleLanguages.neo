@@ -198,16 +198,6 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value=" cm" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric7" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Motor Hızı: " />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric7" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="d/d" />
-        </ReferenceValue>
-      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Alarmlar" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="ALARMLAR" />
@@ -370,12 +360,12 @@
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Katlama Boyu: " />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value=" mm" />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value=" cm" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Sistem" ObjectName="Text4" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
@@ -483,16 +473,6 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Gaz Kapa" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric3" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
-        </ReferenceValue>
-      </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric3" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
-        </ReferenceValue>
-      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Sistem" ObjectName="Text7" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="İlk Katlama Uzunluğu: " />
@@ -510,7 +490,7 @@
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Sistem" ObjectName="AnalogNumeric2" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value=": mm" />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value=": cm" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Sistem" ObjectName="AnalogNumeric3" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
@@ -520,7 +500,7 @@
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Sistem" ObjectName="AnalogNumeric3" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value=": mm" />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value=": cm" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Izleme" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
@@ -555,7 +535,7 @@
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Izleme" ObjectName="Text2" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Anlık Boy" />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Anlık Katlama Boy" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Izleme" ObjectName="AnalogNumeric1" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
@@ -610,7 +590,7 @@
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="Text2" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Gaz Level:" />
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Gas Level:" />
         </ReferenceValue>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric4" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
@@ -621,6 +601,96 @@
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric4" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="%" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric3" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Motor Hızı: " />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric3" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value=" m/d" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Izleme" ObjectName="Text4" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Anlık Ölçülen Boy " />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Izleme" ObjectName="AnalogNumeric3" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Izleme" ObjectName="AnalogNumeric3" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Izleme" ObjectName="Text5" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="mm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric5" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Katlama SAYISI: " />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="AnalogNumeric5" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="KATLAMA_POPUP" ObjectName="Button" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="KAPAT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="KATLAMA_POPUP" ObjectName="Button1" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="6" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="Button4" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="KATLAMA_POPUP" ObjectName="Button2" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="8" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="KATLAMA_POPUP" ObjectName="Button3" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="10" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Sistem" ObjectName="Text9" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Piston Fark: " />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Sistem" ObjectName="AnalogNumeric4" PropertyName="Prefix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Sistem" ObjectName="AnalogNumeric4" PropertyName="Suffix" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="Anasayfa" ObjectName="Text3" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="EMNİYET SWICH  BASILI" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DesignerName="ACIL_STOP" ObjectName="Text" PropertyName="Text" IsActive="True" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="ACİL STOP BASILI" />
         </ReferenceValue>
       </Object>
     </ResourceItems>

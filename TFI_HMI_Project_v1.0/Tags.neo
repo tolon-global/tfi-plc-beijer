@@ -641,7 +641,7 @@
           </Object>
         </GlobalDataSubItems>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Gain="0.1" DataType="DT_REAL4" GlobalDataType="DT_REAL4" d1p1:Site.Name="OLculen_Boy" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Gain="0.1" DataType="DT_REAL4" GlobalDataType="DT_REAL4" d1p1:Site.Name="OLculen_Boy_Anlik" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -672,6 +672,9 @@
             </DataItemNames>
           </Object>
         </GlobalDataSubItems>
+        <Events>
+          <Event Name="ValueChange" EventHandler="Motor_Reduktor_Oranı_ValueChange" />
+        </Events>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="Tambur_Capi" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
         <GlobalDataSubItems>
@@ -688,6 +691,9 @@
             </DataItemNames>
           </Object>
         </GlobalDataSubItems>
+        <Events>
+          <Event Name="ValueChange" EventHandler="Tambur_Capi_ValueChange" />
+        </Events>
       </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="Motor_Devri" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
         <GlobalDataSubItems>
@@ -753,7 +759,7 @@
           </Object>
         </GlobalDataSubItems>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Gain="0.5" DataType="DT_INTEGER2" d1p1:Site.Name="Katlama_Boyu" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Gain="0.05" DataType="DT_INTEGER2" d1p1:Site.Name="Katlama_Boyu" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -1119,6 +1125,144 @@
             </DataItemNames>
           </Object>
         </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" NonVolatile="True" GlobalDataType="DT_REAL4" d1p1:Site.Name="Devir_Bolu_Metre" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+        <Events>
+          <Event Name="ValueChange" EventHandler="Devir_Bolu_Metre_ValueChange" />
+        </Events>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Gain="0.1" DataType="DT_INTEGER2" GlobalDataType="DT_REAL4" d1p1:Site.Name="OLculen_Boy" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Fatek" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem67" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+        <Events>
+          <Event Name="ValueChange" EventHandler="OLculen_Boy_ValueChange" />
+        </Events>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_INTEGER2" d1p1:Site.Name="KATLAMA_SAYISI" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Fatek" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem72" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+        <Events>
+          <Event Name="ValueChange" EventHandler="KATLAMA_SAYISI_ValueChange" />
+        </Events>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="PISTON_FARK" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Fatek" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem68" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" d1p1:Site.Name="Genel_UYARI" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Fatek" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem69" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" d1p1:Site.Name="Acil_Stop_Girisi" ActionName="Multi Action" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Fatek" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem70" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+        <Action>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.MultiAction, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Multi Action">
+            <Actions>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ConditionAction, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" ConditionValue="0" ConditionOperator="IdentityEquality" Name="Condition Action">
+                <ActionMethodInfo>
+                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="" ObjectName="" EventName="" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                </ActionMethodInfo>
+                <Actions>
+                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Show Screen">
+                    <ActionMethodInfo>
+                      <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Show" ObjectName="ACIL_STOP" EventName="ValueChange" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" ObjectPath="" ExplicitAuditTrail="False">
+                        <ActionParameterInfo>
+                          <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionParameterInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Position="0" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </ActionParameterInfo>
+                      </Object>
+                    </ActionMethodInfo>
+                  </Object>
+                </Actions>
+              </Object>
+            </Actions>
+            <ActionMethodInfo>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="" ObjectName="" EventName="ValueChange" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </ActionMethodInfo>
+          </Object>
+        </Action>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" d1p1:Site.Name="KATLAMA_YAPILIYOR" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Fatek" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem71" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+        <Events>
+          <Event Name="ValueChange" EventHandler="KATLAMA_YAPILIYOR_ValueChange" />
+        </Events>
       </Object>
     </GlobalDataItems>
     <PollGroups>

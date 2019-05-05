@@ -24,17 +24,19 @@
     </Category>
     <Category Name="Font">
       <Items>
-        <Item Target="Arkaplan.DigitalClock" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Arkaplan.Group.Button" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Arkaplan.Group1.Button1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Arkaplan.Group2.Button2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Arkaplan.Group3.Button3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Arkaplan.Group5.Button5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Arkaplan.Group4.Button4" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Arkaplan.DigitalClock" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
+        <Item Target="Arkaplan.Button" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Arkaplan.Button1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Arkaplan.Button2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Arkaplan.Button3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Arkaplan.Button5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Arkaplan.Button4" TargetProperty="FontFamily" Source="TREBUC.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
-      <Items />
+      <Items>
+        <Item Target="Arkaplan.Picture2" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.Genel_UYARI" />
+      </Items>
     </Category>
     <Category Name="IntegratorSwapActiveProjectAction">
       <Items />
@@ -50,30 +52,30 @@
     </Category>
     <Category Name="Renderable">
       <Items>
-        <Item Target="Arkaplan.Group.SymbolViewbox" Source="Arkaplan.m_SymbolViewbox.bmp" />
-        <Item Target="Arkaplan.Group.Button" Source="1160122816_Normal.bmp" />
-        <Item Target="Arkaplan.Group.Button" Source="1160122816_Pressed.bmp" />
-        <Item Target="Arkaplan.Group.Button" Source="1160122816_Disabled.bmp" />
-        <Item Target="Arkaplan.Group1.SymbolViewbox1" Source="Arkaplan.m_SymbolViewbox1.bmp" />
-        <Item Target="Arkaplan.Group1.Button1" Source="1160122816_Normal.bmp" />
-        <Item Target="Arkaplan.Group1.Button1" Source="1160122816_Pressed.bmp" />
-        <Item Target="Arkaplan.Group1.Button1" Source="1160122816_Disabled.bmp" />
-        <Item Target="Arkaplan.Group2.SymbolViewbox2" Source="Arkaplan.m_SymbolViewbox2.bmp" />
-        <Item Target="Arkaplan.Group2.Button2" Source="1160122816_Normal.bmp" />
-        <Item Target="Arkaplan.Group2.Button2" Source="1160122816_Pressed.bmp" />
-        <Item Target="Arkaplan.Group2.Button2" Source="1160122816_Disabled.bmp" />
-        <Item Target="Arkaplan.Group3.SymbolViewbox4" Source="Arkaplan.m_SymbolViewbox4.bmp" />
-        <Item Target="Arkaplan.Group3.SymbolViewbox3" Source="Arkaplan.m_SymbolViewbox3.bmp" />
-        <Item Target="Arkaplan.Group3.Button3" Source="1160122816_Normal.bmp" />
-        <Item Target="Arkaplan.Group3.Button3" Source="1160122816_Pressed.bmp" />
-        <Item Target="Arkaplan.Group3.Button3" Source="1160122816_Disabled.bmp" />
-        <Item Target="Arkaplan.Group5.SymbolViewbox5" Source="Arkaplan.m_SymbolViewbox5.bmp" />
-        <Item Target="Arkaplan.Group5.Button5" Source="1160122816_Normal.bmp" />
-        <Item Target="Arkaplan.Group5.Button5" Source="1160122816_Pressed.bmp" />
-        <Item Target="Arkaplan.Group5.Button5" Source="1160122816_Disabled.bmp" />
-        <Item Target="Arkaplan.Group4.Button4" Source="1160122816_Normal.bmp" />
-        <Item Target="Arkaplan.Group4.Button4" Source="1160122816_Pressed.bmp" />
-        <Item Target="Arkaplan.Group4.Button4" Source="1160122816_Disabled.bmp" />
+        <Item Target="Arkaplan.SymbolViewbox" Source="Arkaplan.m_SymbolViewbox.bmp" />
+        <Item Target="Arkaplan.Button" Source="-1484358585_Normal.bmp" />
+        <Item Target="Arkaplan.Button" Source="-1484358585_Pressed.bmp" />
+        <Item Target="Arkaplan.Button" Source="-1484358585_Disabled.bmp" />
+        <Item Target="Arkaplan.SymbolViewbox1" Source="Arkaplan.m_SymbolViewbox1.bmp" />
+        <Item Target="Arkaplan.Button1" Source="-1484358585_Normal.bmp" />
+        <Item Target="Arkaplan.Button1" Source="-1484358585_Pressed.bmp" />
+        <Item Target="Arkaplan.Button1" Source="-1484358585_Disabled.bmp" />
+        <Item Target="Arkaplan.SymbolViewbox2" Source="Arkaplan.m_SymbolViewbox2.bmp" />
+        <Item Target="Arkaplan.Button2" Source="-1484358585_Normal.bmp" />
+        <Item Target="Arkaplan.Button2" Source="-1484358585_Pressed.bmp" />
+        <Item Target="Arkaplan.Button2" Source="-1484358585_Disabled.bmp" />
+        <Item Target="Arkaplan.SymbolViewbox4" Source="Arkaplan.m_SymbolViewbox4.bmp" />
+        <Item Target="Arkaplan.SymbolViewbox3" Source="Arkaplan.m_SymbolViewbox3.bmp" />
+        <Item Target="Arkaplan.Button3" Source="-1484358585_Normal.bmp" />
+        <Item Target="Arkaplan.Button3" Source="-1484358585_Pressed.bmp" />
+        <Item Target="Arkaplan.Button3" Source="-1484358585_Disabled.bmp" />
+        <Item Target="Arkaplan.SymbolViewbox5" Source="Arkaplan.m_SymbolViewbox5.bmp" />
+        <Item Target="Arkaplan.Button5" Source="-1484358585_Normal.bmp" />
+        <Item Target="Arkaplan.Button5" Source="-1484358585_Pressed.bmp" />
+        <Item Target="Arkaplan.Button5" Source="-1484358585_Disabled.bmp" />
+        <Item Target="Arkaplan.Button4" Source="-1484358585_Normal.bmp" />
+        <Item Target="Arkaplan.Button4" Source="-1484358585_Pressed.bmp" />
+        <Item Target="Arkaplan.Button4" Source="-1484358585_Disabled.bmp" />
       </Items>
     </Category>
     <Category Name="Report">
@@ -81,17 +83,12 @@
     </Category>
     <Category Name="Screen">
       <Items>
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group" TargetProperty="Actions" Source="Anasayfa" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group.Button" TargetProperty="Actions" Source="Anasayfa" Event="Click" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group1" TargetProperty="Actions" Source="Manual" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group1.Button1" TargetProperty="Actions" Source="Manual" Event="Click" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group2" TargetProperty="Actions" Source="Sicakliklar" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group3" TargetProperty="Actions" Source="Inputlar" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group3.Button3" TargetProperty="Actions" Source="Inputlar" Event="Click" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group5" TargetProperty="Actions" Source="Sistem" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group5.Button5" TargetProperty="Actions" Source="Sistem" Event="Click" Action="Show Screen" Param="Default" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group4" TargetProperty="Actions" Source="Alarmlar" Event="PreviewMouseDown" Action="Show Screen" Param="" />
-        <Item xsi:type="ActionItem" Target="Arkaplan.Group4.Button4" TargetProperty="Actions" Source="Alarmlar" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Arkaplan.Button" TargetProperty="Actions" Source="Anasayfa" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Arkaplan.Button1" TargetProperty="Actions" Source="Manual" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Arkaplan.Button2" TargetProperty="Actions" Source="Sicakliklar" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Arkaplan.Button3" TargetProperty="Actions" Source="Inputlar" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Arkaplan.Button5" TargetProperty="Actions" Source="Sistem" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="Arkaplan.Button4" TargetProperty="Actions" Source="Alarmlar" Event="Click" Action="Show Screen" Param="Default" />
         <Item xsi:type="ScreenIDItem" ScreenID="">
           <ScreenName>Arkaplan</ScreenName>
         </Item>
@@ -110,7 +107,7 @@
     <Category Name="Symbol">
       <Items>
         <Item xsi:type="SymbolItem" Target="Arkaplan.Picture" Source="tolon_logo" Width="282" Height="67" IsAnimated="false" />
-        <Item xsi:type="SymbolItem" Target="Arkaplan.Group4.Picture1" Source="warning" Width="24" Height="24" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Arkaplan.Picture2" Source="warning" Width="37" Height="37" IsAnimated="false" />
       </Items>
     </Category>
     <Category Name="TextLibrary">

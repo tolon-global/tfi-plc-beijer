@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project SchemaVersion="2.41.177.0" ProjectRevision="177">
+<Project SchemaVersion="2.41.177.0" ProjectRevision="234">
   <Guid>d9d018e6-763d-480e-93fc-c4cf9eb208ed</Guid>
   <ProjectFiles>
-    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2019-04-12T12:39:24.2144993+03:00" Length="456" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2019-04-24T15:22:10.2274871+03:00" Length="456" />
     <ProjectFile Name="Symbols\derece.png" ModifiedDate="2019-04-12T10:50:54.8028807+03:00" Length="6430" />
     <ProjectFile Name="Symbols\tolon_logo.png" ModifiedDate="2019-04-08T22:50:44.2611831+03:00" Length="318758" />
     <ProjectFile Name="Symbols\untitled-1.png" ModifiedDate="2019-04-08T23:21:25.2059643+03:00" Length="318758" />
@@ -13,43 +13,49 @@
     <ProjectFile Name="Symbols\terminal.gif" ModifiedDate="2018-11-06T09:31:36+03:00" Length="8012" />
     <ProjectFile Name="Symbols\warning.gif" ModifiedDate="2018-11-06T09:31:36+03:00" Length="3391" />
     <ProjectFile Name="Symbols\action cancel1.lib" ModifiedDate="2018-11-06T07:31:36+03:00" Length="32573" />
+    <ProjectFile Name="Symbols\action ok1.lib" ModifiedDate="2018-11-06T07:31:36+03:00" Length="17572" />
+    <ProjectFile Name="Symbols\button gray.lib" ModifiedDate="2018-11-06T07:31:36+03:00" Length="21769" />
+    <ProjectFile Name="Symbols\button green.lib" ModifiedDate="2018-11-06T07:31:36+03:00" Length="24062" />
     <ProjectFile Name="Symbols\flammable.lib" ModifiedDate="2018-11-06T07:31:40+03:00" Length="10438" />
     <ProjectFile Name="Symbols\led_green.lib" ModifiedDate="2018-11-06T09:31:36+03:00" Length="34325" />
     <ProjectFile Name="Symbols\led_red.lib" ModifiedDate="2018-11-06T09:31:36+03:00" Length="33316" />
-    <ProjectFile Name="Symbols\action ok1.lib" ModifiedDate="2018-11-06T07:31:36+03:00" Length="17572" />
     <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2019-04-08T13:45:22.5598031+03:00" Length="470" />
     <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2019-04-08T13:45:22.5897232+03:00" Length="6390" />
     <ProjectFile Name="Security.neo" ModifiedDate="2019-04-08T13:45:22.5996974+03:00" Length="451" />
     <ProjectFile Name="Security.xml" ModifiedDate="2019-04-08T13:45:22.6086723+03:00" Length="694" />
     <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2019-04-09T21:33:52.1603804+03:00" Length="16921" />
     <ProjectFile Name="Expressions.neo" ModifiedDate="2019-04-08T13:45:22.6276214+03:00" Length="459" />
-    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2019-04-12T17:57:01.7783473+03:00" Length="67229" />
-    <ProjectFile Name="Tags.neo" ModifiedDate="2019-04-12T17:54:13.9044084+03:00" Length="76847" />
-    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2019-04-12T17:54:13.905447+03:00" Length="779" />
-    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2019-04-12T12:39:24.4269587+03:00" Length="36151" />
-    <ProjectFile Name="Inputlar.neoxaml" ModifiedDate="2019-04-12T11:10:36.9280022+03:00" Length="800" />
-    <ProjectFile Name="Inputlar.xaml" ModifiedDate="2019-04-12T11:10:37.0077995+03:00" Length="33133" />
-    <ProjectFile Name="Manual.neoxaml" ModifiedDate="2019-04-12T17:55:19.1307504+03:00" Length="798" />
-    <ProjectFile Name="Manual.xaml" ModifiedDate="2019-04-12T17:55:19.2471379+03:00" Length="36513" />
-    <ProjectFile Name="Arkaplan.neoxaml" ModifiedDate="2019-04-12T11:10:37.8694808+03:00" Length="800" />
-    <ProjectFile Name="Arkaplan.Script.cs" ModifiedDate="2019-04-12T11:10:37.8704687+03:00" Length="783" />
-    <ProjectFile Name="Arkaplan.xaml" ModifiedDate="2019-04-12T11:10:38.2125244+03:00" Length="165737" />
-    <ProjectFile Name="Anasayfa.neoxaml" ModifiedDate="2019-04-12T17:57:01.8401924+03:00" Length="800" />
-    <ProjectFile Name="Anasayfa.Script.cs" ModifiedDate="2019-04-12T17:57:01.8412986+03:00" Length="870" />
-    <ProjectFile Name="Anasayfa.xaml" ModifiedDate="2019-04-12T17:57:01.9369868+03:00" Length="37342" />
-    <ProjectFile Name="Alarmlar.neoxaml" ModifiedDate="2019-04-12T17:44:38.1029351+03:00" Length="800" />
-    <ProjectFile Name="Alarmlar.xaml" ModifiedDate="2019-04-12T17:44:38.1288513+03:00" Length="7325" />
-    <ProjectFile Name="Sistem.neoxaml" ModifiedDate="2019-04-12T15:48:44.9461695+03:00" Length="798" />
-    <ProjectFile Name="Sistem.xaml" ModifiedDate="2019-04-12T15:48:45.1567975+03:00" Length="75426" />
-    <ProjectFile Name="Sicakliklar.neoxaml" ModifiedDate="2019-04-12T17:55:19.7718895+03:00" Length="803" />
-    <ProjectFile Name="Sicakliklar.xaml" ModifiedDate="2019-04-12T17:55:19.8024588+03:00" Length="13387" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2019-04-24T16:30:37.1250697+03:00" Length="74678" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2019-04-24T17:24:14.5520896+03:00" Length="87149" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2019-04-24T17:24:14.5533937+03:00" Length="2684" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2019-04-24T16:06:55.1316745+03:00" Length="36199" />
+    <ProjectFile Name="Inputlar.neoxaml" ModifiedDate="2019-04-24T16:55:55.9019854+03:00" Length="800" />
+    <ProjectFile Name="Inputlar.xaml" ModifiedDate="2019-04-24T16:55:55.9810229+03:00" Length="33133" />
+    <ProjectFile Name="Manual.neoxaml" ModifiedDate="2019-04-24T16:55:56.4548649+03:00" Length="798" />
+    <ProjectFile Name="Manual.xaml" ModifiedDate="2019-04-24T16:55:56.5329073+03:00" Length="36513" />
+    <ProjectFile Name="Arkaplan.neoxaml" ModifiedDate="2019-04-24T16:55:57.055552+03:00" Length="800" />
+    <ProjectFile Name="Arkaplan.Script.cs" ModifiedDate="2019-04-24T16:55:57.055552+03:00" Length="783" />
+    <ProjectFile Name="Arkaplan.xaml" ModifiedDate="2019-04-24T16:55:57.5279378+03:00" Length="160171" />
+    <ProjectFile Name="Anasayfa.neoxaml" ModifiedDate="2019-04-24T17:12:20.7079826+03:00" Length="800" />
+    <ProjectFile Name="Anasayfa.Script.cs" ModifiedDate="2019-04-24T17:12:20.708958+03:00" Length="1013" />
+    <ProjectFile Name="Anasayfa.xaml" ModifiedDate="2019-04-24T17:12:20.8143667+03:00" Length="42250" />
+    <ProjectFile Name="Alarmlar.neoxaml" ModifiedDate="2019-04-24T16:55:58.6386213+03:00" Length="800" />
+    <ProjectFile Name="Alarmlar.xaml" ModifiedDate="2019-04-24T16:55:58.6708303+03:00" Length="7325" />
+    <ProjectFile Name="Sistem.neoxaml" ModifiedDate="2019-04-24T16:55:58.9099514+03:00" Length="798" />
+    <ProjectFile Name="Sistem.xaml" ModifiedDate="2019-04-24T16:55:59.1754223+03:00" Length="77194" />
+    <ProjectFile Name="Sicakliklar.neoxaml" ModifiedDate="2019-04-24T16:55:59.6712293+03:00" Length="803" />
+    <ProjectFile Name="Sicakliklar.xaml" ModifiedDate="2019-04-24T16:55:59.7112932+03:00" Length="13387" />
     <ProjectFile Name="Popup_Start.neoxaml" ModifiedDate="2019-04-12T11:10:39.5649669+03:00" Length="803" />
     <ProjectFile Name="Popup_Start.Script.cs" ModifiedDate="2019-04-12T11:10:39.5659647+03:00" Length="786" />
     <ProjectFile Name="Popup_Start.xaml" ModifiedDate="2019-04-12T11:10:39.5779155+03:00" Length="5409" />
-    <ProjectFile Name="Izleme.neoxaml" ModifiedDate="2019-04-12T17:49:00.7743357+03:00" Length="812" />
-    <ProjectFile Name="Izleme.xaml" ModifiedDate="2019-04-12T17:49:00.8012671+03:00" Length="11362" />
+    <ProjectFile Name="Izleme.neoxaml" ModifiedDate="2019-04-24T16:06:59.3405102+03:00" Length="798" />
+    <ProjectFile Name="Izleme.xaml" ModifiedDate="2019-04-24T16:06:59.3756449+03:00" Length="13819" />
+    <ProjectFile Name="KATLAMA_POPUP.neoxaml" ModifiedDate="2019-04-24T15:34:51.1707152+03:00" Length="805" />
+    <ProjectFile Name="KATLAMA_POPUP.xaml" ModifiedDate="2019-04-24T15:34:51.2029285+03:00" Length="13546" />
+    <ProjectFile Name="ACIL_STOP.neoxaml" ModifiedDate="2019-04-24T16:53:24.9330435+03:00" Length="818" />
+    <ProjectFile Name="ACIL_STOP.xaml" ModifiedDate="2019-04-24T16:53:24.9428394+03:00" Length="3561" />
     <ProjectFile Name="Printer1.xml" ModifiedDate="2019-04-08T13:45:23.4594713+03:00" Length="850" />
-    <ProjectFile Name="Fatek.neo" ModifiedDate="2019-04-12T17:54:14.4500996+03:00" Length="18074" />
+    <ProjectFile Name="Fatek.neo" ModifiedDate="2019-04-24T17:24:15.1423435+03:00" Length="19648" />
     <ProjectFile Name="Yaskawa.neo" ModifiedDate="2019-04-12T17:54:14.5065097+03:00" Length="1441" />
   </ProjectFiles>
 </Project>

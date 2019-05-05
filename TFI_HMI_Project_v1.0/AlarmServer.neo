@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?neo version='2.41.177.0'?>
 <NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
-  <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmServer, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="AlarmServer" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" MaximumAlarmEventsToDistribute="100" ServerPort="1000">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmServer, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" SummaryAlarmComponentMode="Never" d1p1:Site.Name="AlarmServer" ActionName="" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed" MaximumAlarmEventsToDistribute="100" ServerPort="1000">
     <AlarmGroups>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmGroup, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Default" Text="Default" ActiveBackColor="191, 19, 41" InactiveBackColor="241, 204, 71" AcknowledgeBackColor="67, 127, 70" NormalBackColor="Window" ActiveForeColor="Black" InactiveForeColor="Black" AcknowledgeForeColor="Black" NormalForeColor="Black" EnableDistribution="False" d1p1:Site.Name="Default" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
         <AlarmItems>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="Acil_Stop_Alarm" Name="Default_Acil_Stop_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Acil Stop Basılı!" DefaultText="Acil Stop Basılı!" d1p1:Site.Name="Default_Acil_Stop_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="Acil_Stop_Alarm" Name="Default_Acil_Stop_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Acil Stop Basılı!" DefaultText="Acil Stop Basılı!" d1p1:Site.Name="Default_Acil_Stop_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -35,7 +35,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="Fan_Termik_Alarm" Name="Default_Fan_Termik_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Fan Termik Hata!" DefaultText="Fan Termik Hata!" d1p1:Site.Name="Default_Fan_Termik_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="Fan_Termik_Alarm" Name="Default_Fan_Termik_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Fan Termik Hata!" DefaultText="Fan Termik Hata!" d1p1:Site.Name="Default_Fan_Termik_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -65,7 +65,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="Brulor_Alarm" Name="Default_Brulor_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Brulör Hata!" DefaultText="Brulör Hata!" d1p1:Site.Name="Default_Brulor_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="Brulor_Alarm" Name="Default_Brulor_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Brulör Hata!" DefaultText="Brulör Hata!" d1p1:Site.Name="Default_Brulor_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -95,7 +95,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="Mekanik_Termostat_Alarm" Name="Default_Mekanik_Termostat_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Mekanik Termostat Hata!" DefaultText="Mekanik Termostat Hata!" d1p1:Site.Name="Default_Mekanik_Termostat_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="Mekanik_Termostat_Alarm" Name="Default_Mekanik_Termostat_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Mekanik Termostat Hata!" DefaultText="Mekanik Termostat Hata!" d1p1:Site.Name="Default_Mekanik_Termostat_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -125,7 +125,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="Hiz_Kontrol_Alarm" Name="Default_Hiz_Kontrol_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Hız Kontrol Hata!" DefaultText="Hız Kontrol Hata!" d1p1:Site.Name="Default_Hiz_Kontrol_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="Hiz_Kontrol_Alarm" Name="Default_Hiz_Kontrol_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Hız Kontrol Hata!" DefaultText="Hız Kontrol Hata!" d1p1:Site.Name="Default_Hiz_Kontrol_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -155,7 +155,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="Emniyet_Switch" Name="Default_Emniyet_Switch" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Dikkat_Emniyet_Switch" DefaultText="Dikkat_Emniyet_Switch" d1p1:Site.Name="Default_Emniyet_Switch" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="Emniyet_Switch" Name="Default_Emniyet_Switch" AcknowledgeRequired="True" EnableDistribution="False" StaticText="Dikkat_Emniyet_Switch" DefaultText="Dikkat_Emniyet_Switch" d1p1:Site.Name="Default_Emniyet_Switch" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -185,7 +185,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="PT100_1_Alarm" Name="Default_PT100_1_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="1. PT100 YÜKSEK ALARM" DefaultText="1. PT100 YÜKSEK ALARM" d1p1:Site.Name="Default_PT100_1_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="PT100_1_Alarm" Name="Default_PT100_1_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="1. PT100 YÜKSEK ALARM" DefaultText="1. PT100 YÜKSEK ALARM" d1p1:Site.Name="Default_PT100_1_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -215,7 +215,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="PT100_2_Alarm" Name="Default_PT100_2_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="2. PT100 YÜKSEK ALARM" DefaultText="2. PT100 YÜKSEK ALARM" d1p1:Site.Name="Default_PT100_2_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="PT100_2_Alarm" Name="Default_PT100_2_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="2. PT100 YÜKSEK ALARM" DefaultText="2. PT100 YÜKSEK ALARM" d1p1:Site.Name="Default_PT100_2_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -245,7 +245,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="PT100_3_Alarm" Name="Default_PT100_3_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="3. PT100 YÜKSEK ALARM" DefaultText="3. PT100 YÜKSEK ALARM" d1p1:Site.Name="Default_PT100_3_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="PT100_3_Alarm" Name="Default_PT100_3_Alarm" AcknowledgeRequired="True" EnableDistribution="False" StaticText="3. PT100 YÜKSEK ALARM" DefaultText="3. PT100 YÜKSEK ALARM" d1p1:Site.Name="Default_PT100_3_Alarm" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -275,7 +275,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="PT100_1_Alarm1" Name="Default_PT100_1_Alarm1" AcknowledgeRequired="True" EnableDistribution="False" StaticText="1. PT100 DUSUK ALARM" DefaultText="1. PT100 DUSUK ALARM" d1p1:Site.Name="Default_PT100_1_Alarm1" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="PT100_1_Alarm1" Name="Default_PT100_1_Alarm1" AcknowledgeRequired="True" EnableDistribution="False" StaticText="1. PT100 DUSUK ALARM" DefaultText="1. PT100 DUSUK ALARM" d1p1:Site.Name="Default_PT100_1_Alarm1" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -305,7 +305,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="PT100_2_Alarm2" Name="Default_PT100_2_Alarm2" AcknowledgeRequired="True" EnableDistribution="False" StaticText="3. PT100 DUSUK ALARM" DefaultText="3. PT100 DUSUK ALARM" d1p1:Site.Name="Default_PT100_2_Alarm2" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="PT100_2_Alarm2" Name="Default_PT100_2_Alarm2" AcknowledgeRequired="True" EnableDistribution="False" StaticText="3. PT100 DUSUK ALARM" DefaultText="3. PT100 DUSUK ALARM" d1p1:Site.Name="Default_PT100_2_Alarm2" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>
@@ -335,7 +335,7 @@
               </Object>
             </DataBindings>
           </Object>
-          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="675ff6b5-ae2e-47f9-a776-5ca53adca21e" GroupName="Default" DisplayName="PT100_3_Alarm3" Name="Default_PT100_3_Alarm3" AcknowledgeRequired="True" EnableDistribution="False" StaticText="3. PT100 DUSUK ALARM" DefaultText="3. PT100 DUSUK ALARM" d1p1:Site.Name="Default_PT100_3_Alarm3" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="44823d28-14b3-48cf-a89d-f7fa4fa655df" GroupName="Default" DisplayName="PT100_3_Alarm3" Name="Default_PT100_3_Alarm3" AcknowledgeRequired="True" EnableDistribution="False" StaticText="3. PT100 DUSUK ALARM" DefaultText="3. PT100 DUSUK ALARM" d1p1:Site.Name="Default_PT100_3_Alarm3" ComparerType="EqualTo" ProjectGuid="d9d018e6-763d-480e-93fc-c4cf9eb208ed">
             <TriggerValue>
               <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
             </TriggerValue>

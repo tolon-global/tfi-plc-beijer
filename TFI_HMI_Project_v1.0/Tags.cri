@@ -55,7 +55,7 @@
         <Item Target="Tags" TargetProperty="Istenilen_Sicaklik" Source="Fatek.DataItem31" />
         <Item Target="Tags" TargetProperty="Ustlimit_Offset" Source="Fatek.DataItem32" />
         <Item Target="Tags" TargetProperty="Auto_Start" Source="Fatek.DataItem33" />
-        <Item Target="Tags" TargetProperty="OLculen_Boy" Source="Fatek.DataItem34" />
+        <Item Target="Tags" TargetProperty="OLculen_Boy_Anlik" Source="Fatek.DataItem34" />
         <Item Target="Tags" TargetProperty="Motor_Reduktor_Oranı" Source="Fatek.DataItem35" />
         <Item Target="Tags" TargetProperty="Tambur_Capi" Source="Fatek.DataItem36" />
         <Item Target="Tags" TargetProperty="Motor_Devri" Source="Fatek.DataItem37" />
@@ -84,6 +84,12 @@
         <Item Target="Tags" TargetProperty="ANLIK_BOY" Source="Fatek.DataItem64" />
         <Item Target="Tags" TargetProperty="KATLANAN_BOY" Source="Fatek.DataItem65" />
         <Item Target="Tags" TargetProperty="BURNER_LEVEL" Source="Fatek.DataItem66" />
+        <Item Target="Tags" TargetProperty="OLculen_Boy" Source="Fatek.DataItem67" />
+        <Item Target="Tags" TargetProperty="KATLAMA_SAYISI" Source="Fatek.DataItem72" />
+        <Item Target="Tags" TargetProperty="PISTON_FARK" Source="Fatek.DataItem68" />
+        <Item Target="Tags" TargetProperty="Genel_UYARI" Source="Fatek.DataItem69" />
+        <Item Target="Tags" TargetProperty="Acil_Stop_Girisi" Source="Fatek.DataItem70" />
+        <Item Target="Tags" TargetProperty="KATLAMA_YAPILIYOR" Source="Fatek.DataItem71" />
       </Items>
     </Category>
     <Category Name="IntegratorSwapActiveProjectAction">
@@ -99,10 +105,27 @@
       <Items />
     </Category>
     <Category Name="Screen">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="Tags.Acil_Stop_Girisi" TargetProperty="Action" Source="ACIL_STOP" Event="ValueChange" Action="Show Screen" Param="" />
+      </Items>
     </Category>
     <Category Name="Script">
-      <Items />
+      <Items>
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Motor_Reduktor_Oranı" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Tambur_Capi" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.Devir_Bolu_Metre" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.OLculen_Boy" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.KATLAMA_SAYISI" />
+        <Item Target="Tags.Script.cs" TargetProperty="ValueChange" Source="Tags.KATLAMA_YAPILIYOR" />
+        <Item Target="Tags.Script.cs" Source="Tags.Hiz_Rpm" />
+        <Item Target="Tags.Script.cs" Source="Tags.Motor_Reduktor_Oranı" />
+        <Item Target="Tags.Script.cs" Source="Tags.Tambur_Capi" />
+        <Item Target="Tags.Script.cs" Source="Tags.Katlama_Boyu" />
+        <Item Target="Tags.Script.cs" Source="Tags.Devir_Bolu_Metre" />
+        <Item Target="Tags.Script.cs" Source="Tags.OLculen_Boy" />
+        <Item Target="Tags.Script.cs" Source="Tags.KATLAMA_SAYISI" />
+        <Item Target="Tags.Script.cs" Source="Tags.KATLAMA_YAPILIYOR" />
+      </Items>
     </Category>
     <Category Name="StructuredTag">
       <Items />

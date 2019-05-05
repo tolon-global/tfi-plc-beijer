@@ -24,23 +24,27 @@
     </Category>
     <Category Name="Font">
       <Items>
-        <Item Target="Izleme.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Izleme.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Izleme.Text" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
         <Item Target="Izleme.AnalogNumeric6" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Izleme.Text1" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
         <Item Target="Izleme.AnalogNumeric" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Izleme.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Izleme.Text2" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
         <Item Target="Izleme.AnalogNumeric1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Izleme.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Izleme.Text3" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
         <Item Target="Izleme.AnalogNumeric2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Izleme.Text4" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
+        <Item Target="Izleme.AnalogNumeric3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Izleme.Text5" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
       <Items>
-        <Item Target="Izleme.AnalogNumeric6" TargetProperty="Value" Source="Tags.OLculen_Boy" />
+        <Item Target="Izleme.AnalogNumeric6" TargetProperty="Value" Source="Tags.OLculen_Boy_Anlik" />
         <Item Target="Izleme.AnalogNumeric6" TargetProperty="Background" Source="Tags.BOY_HESAPLANDI" />
         <Item Target="Izleme.AnalogNumeric" TargetProperty="Value" Source="Tags.KALAN_BOY" />
         <Item Target="Izleme.AnalogNumeric1" TargetProperty="Value" Source="Tags.ANLIK_BOY" />
         <Item Target="Izleme.AnalogNumeric2" TargetProperty="Value" Source="Tags.KATLANAN_BOY" />
+        <Item Target="Izleme.AnalogNumeric3" TargetProperty="Value" Source="Tags.OLculen_Boy_Anlik" />
       </Items>
     </Category>
     <Category Name="IntegratorSwapActiveProjectAction">
@@ -67,7 +71,7 @@
           <ScreenName>Izleme</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>23</ObjectsCount>
+          <ObjectsCount>27</ObjectsCount>
           <ScreenName>Izleme</ScreenName>
         </Item>
       </Items>

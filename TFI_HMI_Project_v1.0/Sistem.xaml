@@ -756,61 +756,85 @@
         </nac:Label>
       </nac:Group>
     </nac:Group>
-    <nac:Group Name="m_Group4" Width="388" Height="142" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="26" Canvas.Left="407" Canvas.Top="118">
-      <nac:AnalogNumericFX AutoStretchFont="False" Suffix=": mm" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric2" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="23" KeyboardNavigation.TabNavigation="None" Canvas.Left="215" Canvas.Top="0">
-        <nac:AnalogNumericFX.Resources>
-          <ResourceDictionary>
-            <nacc:VariantValueConverter x:Key="ValueConverter" />
-          </ResourceDictionary>
-        </nac:AnalogNumericFX.Resources>
-        <nac:AnalogNumericFX.Value>
-          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.ILK_KATLAMA_UZUNLUGU].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
-            <Binding.FallbackValue>0</Binding.FallbackValue>
-          </Binding>
-        </nac:AnalogNumericFX.Value>
-        <nac:AnalogNumericFX.BevelEffectInfo>
-          <nacb:BevelEffectInfo Style="None" Width="2" />
-        </nac:AnalogNumericFX.BevelEffectInfo>
-        <nac:AnalogNumericFX.TextDecorations>
-          <TextDecorationCollection />
-        </nac:AnalogNumericFX.TextDecorations>
-        <naı:ActionProperties.Actions>
-          <naı:ActionList />
-        </naı:ActionProperties.Actions>
-      </nac:AnalogNumericFX>
-      <nac:AnalogNumericFX AutoStretchFont="False" Suffix=": mm" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric3" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="24" KeyboardNavigation.TabNavigation="None" Canvas.Left="215" Canvas.Top="72">
-        <nac:AnalogNumericFX.Resources>
-          <ResourceDictionary>
-            <nacc:VariantValueConverter x:Key="ValueConverter" />
-          </ResourceDictionary>
-        </nac:AnalogNumericFX.Resources>
-        <nac:AnalogNumericFX.Value>
-          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SON_KATLAMA_UZUNLUGU].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
-            <Binding.FallbackValue>0</Binding.FallbackValue>
-          </Binding>
-        </nac:AnalogNumericFX.Value>
-        <nac:AnalogNumericFX.BevelEffectInfo>
-          <nacb:BevelEffectInfo Style="None" Width="2" />
-        </nac:AnalogNumericFX.BevelEffectInfo>
-        <nac:AnalogNumericFX.TextDecorations>
-          <TextDecorationCollection />
-        </nac:AnalogNumericFX.TextDecorations>
-        <naı:ActionProperties.Actions>
-          <naı:ActionList />
-        </naı:ActionProperties.Actions>
-      </nac:AnalogNumericFX>
-      <nac:Label Text="Son Katlama Uzunluğu: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text8" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="1" Canvas.Top="91">
-        <nac:Label.TextDecorations>
-          <TextDecorationCollection />
-        </nac:Label.TextDecorations>
-      </nac:Label>
-      <nac:Label Text="İlk Katlama Uzunluğu: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text7" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="21" Canvas.Left="0" Canvas.Top="16">
-        <nac:Label.TextDecorations>
-          <TextDecorationCollection />
-        </nac:Label.TextDecorations>
-      </nac:Label>
-    </nac:Group>
-    <nac:Button ButtonAppearance="Rounded" Text="İzleme" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button" Width="100" Height="101" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="27" Canvas.Left="10" Canvas.Top="311" Style="{nac1:StyleMarkupExtension Black}">
+    <nac:AnalogNumericFX AutoStretchFont="False" Suffix=": cm" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric2" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="23" KeyboardNavigation.TabNavigation="None" Canvas.Left="622" Canvas.Top="118">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.ILK_KATLAMA_UZUNLUGU].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <naı:ActionProperties.Actions>
+        <naı:ActionList />
+      </naı:ActionProperties.Actions>
+    </nac:AnalogNumericFX>
+    <nac:AnalogNumericFX AutoStretchFont="False" Suffix=": cm" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric3" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="24" KeyboardNavigation.TabNavigation="None" Canvas.Left="622" Canvas.Top="190">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SON_KATLAMA_UZUNLUGU].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <naı:ActionProperties.Actions>
+        <naı:ActionList />
+      </naı:ActionProperties.Actions>
+    </nac:AnalogNumericFX>
+    <nac:Label Text="Son Katlama Uzunluğu: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text8" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="408" Canvas.Top="209">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label Text="İlk Katlama Uzunluğu: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text7" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="21" Canvas.Left="407" Canvas.Top="134">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label Text="Piston Fark: " Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Trebuchet MS" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5,0,5,1" Name="m_Text9" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="28" Canvas.Left="10" Canvas.Top="351">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:AnalogNumericFX AutoStretchFont="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Trebuchet MS" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF000000" BorderThickness="4,4,4,4" Background="#FFDCE4EE" Foreground="#FF000000" FontSize="24" Padding="2,2,2,2" Name="m_AnalogNumeric4" Width="173" Height="70" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" Focusable="True" Panel.ZIndex="29" KeyboardNavigation.TabNavigation="None" Canvas.Left="224" Canvas.Top="332">
+      <nac:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:AnalogNumericFX.Resources>
+      <nac:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.PISTON_FARK].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac:AnalogNumericFX.Value>
+      <nac:AnalogNumericFX.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="2" />
+      </nac:AnalogNumericFX.BevelEffectInfo>
+      <nac:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac:AnalogNumericFX.TextDecorations>
+      <naı:ActionProperties.Actions>
+        <naı:ActionList />
+      </naı:ActionProperties.Actions>
+    </nac:AnalogNumericFX>
+    <nac:Button ButtonAppearance="Rounded" Text="İzleme" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button" Width="100" Height="101" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="27" Canvas.Left="7" Canvas.Top="11" Style="{nac1:StyleMarkupExtension Black}">
       <nac:Button.TextDecorations>
         <TextDecorationCollection />
       </nac:Button.TextDecorations>

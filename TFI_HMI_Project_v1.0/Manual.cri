@@ -47,6 +47,8 @@
         <Item Target="Manual.MultiPicture4" TargetProperty="Value" Source="Tags.PLC_Cikis5" />
         <Item Target="Manual.MultiPicture5" TargetProperty="Value" Source="Tags.PLC_Cikis3" />
         <Item Target="Manual.MultiPicture6" TargetProperty="Value" Source="Tags.PLC_Cikis4" />
+        <Item Target="Manual.MultiPicture7" TargetProperty="Value" Source="Tags.PLC_Cikis2_Brulor_Reset" />
+        <Item Target="Manual.MultiPicture8" TargetProperty="Value" Source="Tags.SISTEM_RESET" />
         <Item xsi:type="ActionItem" Target="Manual.Button2" TargetProperty="Actions" Source="Tags.Hiz_Kontrol_İleri" Event="Click" Action="Toggle Tag" Param="" />
         <Item Target="Manual.Button2" TargetProperty="Value" Source="Tags.Hiz_Kontrol_İleri" />
         <Item Target="Manual.Button2" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.Hiz_Kontrol_Geri" />
@@ -65,8 +67,6 @@
         <Item xsi:type="ActionItem" Target="Manual.Button" TargetProperty="Actions" Source="Tags.PLC_Cikis2_Brulor_Reset" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
         <Item xsi:type="ActionItem" Target="Manual.Button8" TargetProperty="Actions" Source="Tags.SISTEM_RESET" Event="PreviewMouseDown" Action="Set Tag" Param="" />
         <Item xsi:type="ActionItem" Target="Manual.Button8" TargetProperty="Actions" Source="Tags.SISTEM_RESET" Event="PreviewMouseUp" Action="Reset Tag" Param="" />
-        <Item Target="Manual.MultiPicture7" TargetProperty="Value" Source="Tags.PLC_Cikis2_Brulor_Reset" />
-        <Item Target="Manual.MultiPicture8" TargetProperty="Value" Source="Tags.SISTEM_RESET" />
       </Items>
     </Category>
     <Category Name="IntegratorSwapActiveProjectAction">

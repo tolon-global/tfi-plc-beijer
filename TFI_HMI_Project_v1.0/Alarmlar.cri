@@ -26,7 +26,7 @@
     </Category>
     <Category Name="Font">
       <Items>
-        <Item Target="Alarmlar.AlarmViewer" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Alarmlar.AlarmViewer" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
         <Item Target="Alarmlar.Text" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Alarmlar.Button5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Alarmlar.Button6" TargetProperty="FontFamily" Source="TREBUC.TTF" />

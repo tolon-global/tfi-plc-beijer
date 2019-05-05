@@ -31,8 +31,8 @@
         <Item Target="Sicakliklar.AnalogNumeric4" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Sicakliklar.AnalogNumeric5" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Sicakliklar.Text1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Sicakliklar.LinearMeter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Sicakliklar.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Sicakliklar.LinearMeter" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
+        <Item Target="Sicakliklar.Text" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">

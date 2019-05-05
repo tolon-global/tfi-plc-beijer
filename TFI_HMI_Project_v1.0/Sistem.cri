@@ -31,14 +31,16 @@
         <Item Target="Sistem.AnalogNumeric6" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Sistem.AnalogNumeric" TargetProperty="FontFamily" Source="TREBUC.TTF" />
         <Item Target="Sistem.AnalogNumeric1" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sistem.Group3.Group2.Text6" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
+        <Item Target="Sistem.Group3.Group1.Text5" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
         <Item Target="Sistem.Group3.Group.Text4" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Sistem.Group3.Group1.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Sistem.Group3.Group2.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
-        <Item Target="Sistem.Group4.Text7" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Sistem.Group4.Text8" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Sistem.Group4.AnalogNumeric2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Sistem.Group4.AnalogNumeric3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
-        <Item Target="Sistem.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Sistem.AnalogNumeric2" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sistem.AnalogNumeric3" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sistem.Text8" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sistem.Text7" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sistem.Text9" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sistem.AnalogNumeric4" TargetProperty="FontFamily" Source="TREBUC.TTF" />
+        <Item Target="Sistem.Button" TargetProperty="FontFamily" Source="LSIS_ENG.TTF" />
       </Items>
     </Category>
     <Category Name="GlobalDataItem">
@@ -46,8 +48,9 @@
         <Item Target="Sistem.AnalogNumeric6" TargetProperty="Value" Source="Tags.Motor_Reduktor_Oranı" />
         <Item Target="Sistem.AnalogNumeric" TargetProperty="Value" Source="Tags.Tambur_Capi" />
         <Item Target="Sistem.AnalogNumeric1" TargetProperty="Value" Source="Tags.Motor_Devri" />
-        <Item Target="Sistem.Group4.AnalogNumeric2" TargetProperty="Value" Source="Tags.ILK_KATLAMA_UZUNLUGU" />
-        <Item Target="Sistem.Group4.AnalogNumeric3" TargetProperty="Value" Source="Tags.SON_KATLAMA_UZUNLUGU" />
+        <Item Target="Sistem.AnalogNumeric2" TargetProperty="Value" Source="Tags.ILK_KATLAMA_UZUNLUGU" />
+        <Item Target="Sistem.AnalogNumeric3" TargetProperty="Value" Source="Tags.SON_KATLAMA_UZUNLUGU" />
+        <Item Target="Sistem.AnalogNumeric4" TargetProperty="Value" Source="Tags.PISTON_FARK" />
       </Items>
     </Category>
     <Category Name="IntegratorSwapActiveProjectAction">
@@ -64,9 +67,9 @@
     </Category>
     <Category Name="Renderable">
       <Items>
-        <Item Target="Sistem.Group3.Group.SymbolViewbox" Source="Sistem.m_SymbolViewbox.bmp" />
-        <Item Target="Sistem.Group3.Group1.SymbolViewbox1" Source="Sistem.m_SymbolViewbox1.bmp" />
         <Item Target="Sistem.Group3.Group2.SymbolViewbox4" Source="Sistem.m_SymbolViewbox4.bmp" />
+        <Item Target="Sistem.Group3.Group1.SymbolViewbox1" Source="Sistem.m_SymbolViewbox1.bmp" />
+        <Item Target="Sistem.Group3.Group.SymbolViewbox" Source="Sistem.m_SymbolViewbox.bmp" />
         <Item Target="Sistem.Button" Source="-1074489765_Normal.bmp" />
         <Item Target="Sistem.Button" Source="-1074489765_Pressed.bmp" />
         <Item Target="Sistem.Button" Source="-1074489765_Disabled.bmp" />
@@ -82,7 +85,7 @@
           <ScreenName>Sistem</ScreenName>
         </Item>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>34</ObjectsCount>
+          <ObjectsCount>36</ObjectsCount>
           <ScreenName>Sistem</ScreenName>
         </Item>
       </Items>

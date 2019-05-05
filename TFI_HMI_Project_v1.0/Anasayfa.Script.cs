@@ -24,5 +24,11 @@ namespace Neo.ApplicationFramework.Generated
 			
 		}
 		
+		void Anasayfa_Opened(System.Object sender, System.EventArgs e)
+		{
+			EmniyetSwitchGroup.Top=120;
+			EmniyetSwitchGroup.Left=0;
+		}
+		
     }
 }
